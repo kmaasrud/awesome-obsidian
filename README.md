@@ -11,6 +11,14 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 # Table of contents
 
 - [Themes](#themes)
+- [Handy tools](#handy-tools)
+
+# Handy tools
+
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
+| [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
 
 # Themes
 
