@@ -10,8 +10,8 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 
 # Table of contents
 
-- [Themes](#themes)
 - [Handy tools](#handy-tools)
+- [Themes](#themes)
 
 # Handy tools
 
