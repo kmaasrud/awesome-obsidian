@@ -12,6 +12,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
+- [CSS Tweaks](#css-tweaks)
 
 # Handy tools
 
@@ -32,3 +33,47 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 [Comfort Color Dark Theme](https://github.com/obsidian-ezs/obsidian-comfort-color-dark) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-comfort-color-dark/master/screencap.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
 [Gruvbox Theme](https://github.com/insanum/obsidian_gruvbox) | This is a gruvbox theme for Obsidian. It supports both light and dark modes. | ![](https://raw.githubusercontent.com/insanum/obsidian_gruvbox/master/dark.png) | [insanum](https://github.com/insanum)
 [Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md) | A light theme for Obsidian. | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png) | [dogwaddle](https://github.com/dogwaddle)
+[Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
+[Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/light.png) | [Slowbad](https://github.com/Slowbad)
+
+# CSS Tweaks
+
+Small tweaks to add to your `obsidian.css` file
+
+- [Andy Matuschak mode](#andy-matuschak-mode)
+- [Collapsing sidebar](#collapsing-sidebar)
+- ["Bear-like" styling](#bear-like-styling)
+
+### Andy Matuschak mode
+
+```
+.workspace-split.mod-vertical { overflow-x:auto; }
+.workspace-leaf, .workspace-split > .workspace-split { min-width: 500px; min-height: 500px; }
+.workspace-split.mod-horizontal { overflow-y: auto; } 
+```
+
+Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Collapsing sidebar
+
+```
+.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
+  width: 0px !important;
+}
+```
+
+Credits to [kmaasrud](https://github.com/kmaasrud)
+
+---
+
+### "Bear-like" styling
+
+![](https://media.discordapp.net/attachments/702656734631821413/710969244921364490/unknown.png?width=1167&height=702)
+
+[Gist here](https://gist.github.com/seanwcom/698cf161222d194118d217d77a380d8b)
+
+Credits to [seanwcom](https://gist.github.com/seanwcom)
+
+---
