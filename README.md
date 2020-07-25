@@ -72,7 +72,7 @@ Credits to [kmaasrud](https://github.com/kmaasrud)
 
 ![](https://media.discordapp.net/attachments/702656734631821413/710969244921364490/unknown.png?width=1167&height=702)
 
-[Gist here](https://gist.github.com/seanwcom/698cf161222d194118d217d77a380d8b)
+[Repo here](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
 
 Credits to [seanwcom](https://gist.github.com/seanwcom)
 
