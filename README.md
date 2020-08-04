@@ -46,7 +46,6 @@ Small tweaks to add to your `obsidian.css` file
 
 - [Andy Matuschak mode](#andy-matuschak-mode)
 - [Collapsing sidebar](#collapsing-sidebar)
-- ["Bear-like" styling](#bear-like-styling)
 
 ### Andy Matuschak mode
 
