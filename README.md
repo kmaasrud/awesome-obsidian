@@ -169,3 +169,22 @@ Credits to [deathau](https://github.com/deathau)
 Credits to [kmaasrud](https://github.com/kmaasrud)
 
 ---
+
+### Bullet point relationship lines
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
+.cm-hmd-list-indent .cm-tab::before, ul ul::before {
+ content:'';
+ border-left: 1px solid rgba(0, 122, 255, 0.25);
+ position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
+}
+ul ul::before { left: -11px; top: 0; bottom: 0; 
+} 
+</code></pre>
+
+Credits to [deathau](https://github.com/deathau)
