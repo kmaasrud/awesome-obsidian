@@ -52,7 +52,7 @@ Small tweaks to add to your `obsidian.css` file
 
 <details>
 <summary>CSS</summary>
-<pre><code>
+<pre lang="css"><code>
 /* everything under .mod-root now. Don't want Andy messing with sidebars */
 /* also, Andy only makes sense for vertical splits, at the root level, right? */
 .mod-root.workspace-split.mod-vertical { 
@@ -154,7 +154,9 @@ Credits to [deathau](https://github.com/deathau)
 
 ### Collapsing sidebar
 
-```
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
 .side-dock-ribbon.mod-left.is-collapsed:not(:hover), .side-dock-ribbon.mod-right.is-collapsed:not(:hover) {
   width: 15px !important;
   opacity: 0;
@@ -162,7 +164,7 @@ Credits to [deathau](https://github.com/deathau)
 .side-dock-ribbon {
   transition-property: width, opacity;
 }
-```
+</code></pre>
 
 Credits to [kmaasrud](https://github.com/kmaasrud)
 
