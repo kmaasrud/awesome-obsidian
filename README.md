@@ -52,7 +52,7 @@ Small tweaks to add to your `obsidian.css` file
 
 <details>
 <summary>CSS</summary>
-<code>
+<pre><code>
 /* everything under .mod-root now. Don't want Andy messing with sidebars */
 /* also, Andy only makes sense for vertical splits, at the root level, right? */
 .mod-root.workspace-split.mod-vertical { 
@@ -145,7 +145,7 @@ Small tweaks to add to your `obsidian.css` file
 .workspace-fake-target-overlay {
   background-color: var(--background-primary);
 }
-</code>
+</code></pre>
 </details>
 
 Credits to [deathau](https://github.com/deathau)
