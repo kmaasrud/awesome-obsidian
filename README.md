@@ -50,11 +50,103 @@ Small tweaks to add to your `obsidian.css` file
 
 ### Andy Matuschak mode
 
+<details>
+<summary>CSS</summary>
 ```
-.workspace-split.mod-vertical { overflow-x:auto; }
-.workspace-leaf, .workspace-split > .workspace-split { min-width: 500px; min-height: 500px; }
-.workspace-split.mod-horizontal { overflow-y: auto; } 
+/* everything under .mod-root now. Don't want Andy messing with sidebars */
+/* also, Andy only makes sense for vertical splits, at the root level, right? */
+.mod-root.workspace-split.mod-vertical { 
+  overflow-x:auto; 
+  --header-width: 36px; /* <- 36px is the header height in the default theme */
+}
+.mod-root.workspace-split.mod-vertical > div { 
+  min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
+  position:sticky;
+  left:0;
+}
+
+/* shift sticky position, so titles will stack up to the left */
+/* This will currently stack to a maximum of 10 before resetting */
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) * 0); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) * 1); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) * 2); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) * 3); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) * 4); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) * 5); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) * 6); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) * 7); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) * 8); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) * 9); }
+
+/* now it's time for the fancy vertical titles */
+
+/* first we'll add a bit of gap for the title to sit inside of */
+.workspace-leaf-content {
+  padding-left: var(--header-width);
+  position: relative;
+}
+
+/* this is where the magic happens */
+.view-header {
+  writing-mode: vertical-lr;
+  border-right: 1px solid var(--background-secondary-alt);
+  border-left: 2px solid var(--background-secondary-alt);
+  border-top: none;
+  border-bottom: none;
+  height: auto;
+  width: var(--header-width);
+  position: absolute;
+  left:0;
+  top:0;
+  bottom:0;
+}
+
+/* active titles have different border colours */
+.workspace-leaf.mod-active .view-header {
+  border-right: 2px solid var(--interactive-accent);
+  border-bottom: none;
+}
+
+/* unset the title container height and swap padding */
+.view-header-title-container {
+  height: unset;
+  padding-left: unset;
+  padding-top: 5px;
+}
+
+/* fix the long-title-obscuring shadows */
+.view-header-title-container:after {
+  width: 100%;
+  height: 30px;
+  top:unset;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, var(--background-secondary));
+}
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
+}
+
+/* swap the padding/margin around for the header and actions icons */
+.view-header-icon, .view-actions {
+  padding: 10px 5px;
+}
+.view-action {
+  margin: 8px 0;
+}
+
+/* get rid of the gap left by the now-missing horizontal title */
+.view-content {
+  height: 100%;
+}
+
+/* make the fake drop target overlay have a background so you can see it. */
+/* TODO: figure out how the fake target overlay works so we can put the title back, too */
+.workspace-fake-target-overlay {
+  background-color: var(--background-primary);
+}
 ```
+</details>
 
 Credits to [deathau](https://github.com/deathau)
 
