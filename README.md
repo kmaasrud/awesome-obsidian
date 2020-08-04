@@ -47,6 +47,8 @@ Small tweaks to add to your `obsidian.css` file
 
 - [Andy Matuschak mode](#andy-matuschak-mode)
 - [Collapsing sidebar](#collapsing-sidebar)
+- [Bullet point relationship lines](#bullet-point-relationship-lines)
+- [Auto-fading UI](#auto-fading-ui)
 
 ### Andy Matuschak mode
 
