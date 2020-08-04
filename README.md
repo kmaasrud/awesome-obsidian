@@ -165,6 +165,7 @@ Credits to [deathau](https://github.com/deathau)
   transition-property: width, opacity;
 }
 </code></pre>
+</details>
 
 Credits to [kmaasrud](https://github.com/kmaasrud)
 
@@ -186,5 +187,32 @@ Credits to [kmaasrud](https://github.com/kmaasrud)
 ul ul::before { left: -11px; top: 0; bottom: 0; 
 } 
 </code></pre>
+</details>
 
 Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Auto-fading UI
+
+<details>
+<summary>Auto-fading note controls</summary>
+<pre lang="css"><code>
+.view-header:not(:hover) .view-actions {
+  opacity: 0.1;
+  transition: opacity .25s ease-in-out;
+}
+</code></pre>
+</details>
+
+<details>
+<summary>Auto-fading status bar</summary>
+<pre lang="css"><code>
+.status-bar:not(:hover) .status-bar-item {
+  opacity: 0.25;
+  transition: opacity .25s ease-in-out;
+}
+</code></pre>
+</details>
+
+Credits to Rumen Dimitrov
