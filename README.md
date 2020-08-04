@@ -20,8 +20,11 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | :--: | :---------- | ------: |
 | [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
 | [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
+| [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian | [connertennery](https://github.com/connertennery) |
 
 # Themes
+
+Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
 
 | Name | Description | Image | Credits |
 | :--: | :---------- | ----- | ------: |
@@ -35,6 +38,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 [Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md) | A light theme for Obsidian. | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png) | [dogwaddle](https://github.com/dogwaddle)
 [Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
 [Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/light.png) | [Slowbad](https://github.com/Slowbad)
+[Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
 
 # CSS Tweaks
 
@@ -59,21 +63,15 @@ Credits to [deathau](https://github.com/deathau)
 ### Collapsing sidebar
 
 ```
-.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
-  width: 0px !important;
+.side-dock-ribbon.mod-left.is-collapsed:not(:hover), .side-dock-ribbon.mod-right.is-collapsed:not(:hover) {
+  width: 15px !important;
+  opacity: 0;
+}
+.side-dock-ribbon {
+  transition-property: width, opacity;
 }
 ```
 
 Credits to [kmaasrud](https://github.com/kmaasrud)
-
----
-
-### "Bear-like" styling
-
-![](https://media.discordapp.net/attachments/702656734631821413/710969244921364490/unknown.png?width=1167&height=702)
-
-[Repo here](https://github.com/seanwcom/Red-Graphite-for-Obsidian)
-
-Credits to [seanwcom](https://gist.github.com/seanwcom)
 
 ---
