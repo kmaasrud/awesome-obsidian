@@ -39,6 +39,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
 [Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/light.png) | [Slowbad](https://github.com/Slowbad)
 [Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
+[Obsidian + Nord](https://github.com/insanum/obsidian_nord) | A Nord-based theme for Obsidian, only supporting dark mode | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png) | [insanum](https://github.com/insanum) |
 
 # CSS Tweaks
 
