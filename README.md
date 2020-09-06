@@ -21,6 +21,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
 | [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian | [connertennery](https://github.com/connertennery) |
+| [Obsidian to HTML converter](https://github.com/kmaasrud/obsidian-html) | Python script that converts an Obsidian vault into HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
 
 # Themes
 
