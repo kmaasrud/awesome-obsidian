@@ -30,7 +30,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 | Name | Description | Image | Credits |
 | :--: | :---------- | ----- | ------: |
-[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha) 
+[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha)
 [80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md) | A retro-future 80s inspired theme for Obsidian.  | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg) | [deathau](https://github.com/deathau)
 [Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md) | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/. | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif) | [deathau](https://github.com/deathau)
 [Clean theme](https://github.com/kmaasrud/clean-theme-obsidian) | A minimal and clean theme designed to be clutter-free and easy on the eye. | ![](https://raw.githubusercontent.com/kmaasrud/clean-theme-obsidian/master/media/dark_shadow.png) | [kmaasrud](https://github.com/kmaasrud)
@@ -48,23 +48,19 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 Small tweaks to add to your `obsidian.css` file
 
-- [Table of contents](#table-of-contents)
-- [Handy tools](#handy-tools)
-- [Themes](#themes)
-- [CSS Tweaks](#css-tweaks)
-    - [Andy Matuschak mode](#andy-matuschak-mode)
-    - [Collapsing sidebar](#collapsing-sidebar)
-    - [Bullet point relationship lines](#bullet-point-relationship-lines)
-    - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-    - [Auto-fading UI](#auto-fading-ui)
-    - [Hyphenation and Justification](#hyphenation-and-justification)
-    - [Enlarge Image on Hover](#enlarge-image-on-hover)
-    - [Nicer Check Boxes](#nicer-check-boxes)
-    - [Stylish Block Quotes](#stylish-block-quotes)
-    - [Bigger Link Popup Preview](#bigger-link-popup-preview)
-    - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-    - [Tag Pills](#tag-pills)
-    - [Outliner For The Outline](#outliner-for-the-outline)
+- [Andy Matuschak mode](#andy-matuschak-mode)
+- [Collapsing sidebar](#collapsing-sidebar)
+- [Bullet point relationship lines](#bullet-point-relationship-lines)
+- [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+- [Auto-fading UI](#auto-fading-ui)
+- [Hyphenation and Justification](#hyphenation-and-justification)
+- [Enlarge Image on Hover](#enlarge-image-on-hover)
+- [Nicer Check Boxes](#nicer-check-boxes)
+- [Stylish Block Quotes](#stylish-block-quotes)
+- [Bigger Link Popup Preview](#bigger-link-popup-preview)
+- [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+- [Tag Pills](#tag-pills)
+- [Outliner For The Outline](#outliner-for-the-outline)
 
 ### Andy Matuschak mode
 
@@ -73,11 +69,11 @@ Small tweaks to add to your `obsidian.css` file
 <pre lang="css"><code>
 /* everything under .mod-root now. Don't want Andy messing with sidebars */
 /* also, Andy only makes sense for vertical splits, at the root level, right? */
-.mod-root.workspace-split.mod-vertical { 
-  overflow-x:auto; 
+.mod-root.workspace-split.mod-vertical {
+  overflow-x:auto;
   --header-width: 36px; /* <- 36px is the header height in the default theme */
 }
-.mod-root.workspace-split.mod-vertical > div { 
+.mod-root.workspace-split.mod-vertical > div {
   min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
   box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
   position:sticky;
@@ -200,10 +196,10 @@ Credits to [kmaasrud](https://github.com/kmaasrud)
  border-left: 1px solid rgba(0, 122, 255, 0.25);
  position: absolute;
 }
-.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
+.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px;
 }
-ul ul::before { left: -11px; top: 0; bottom: 0; 
-} 
+ul ul::before { left: -11px; top: 0; bottom: 0;
+}
 </code></pre>
 </details>
 
@@ -216,8 +212,8 @@ Credits to [deathau](https://github.com/deathau)
 <details>
 <summary>CSS</summary>
 <pre lang="css"><code>
-.contains-task-list::before { 
-  left: 10px ; 
+.contains-task-list::before {
+  left: 10px ;
 }
 </code></pre>
 </details>
@@ -333,7 +329,7 @@ input[type=checkbox], .cm-formatting-task {
     border-radius: 50%;
     border: 1px solid var(--text-faint);
     padding: 0;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 
 .cm-s-obsidian span.cm-formatting-task {
