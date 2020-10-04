@@ -61,6 +61,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Enlarge Image on Hover](#enlarge-image-on-hover)
     - [Nicer Check Boxes](#nicer-check-boxes)
     - [Stylish Block Quotes](#stylish-block-quotes)
+    - [Bigger Link Popup Preview](#bigger-link-popup-preview)
 
 ### Andy Matuschak mode
 
@@ -360,3 +361,22 @@ Credits to Théry Fouchter
 
 ---
 
+### Bigger Link Popup Preview
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/*============ bigger link popup preview ================*/
+.popover.hover-popover {
+    transform: scale(0.8); /* makes the content smaller */
+    max-height: 800px;    /* was 300 */
+    min-height: 100px;
+    width: 500px;     /* was 400 */
+}
+</code></pre>
+</details>
+
+
+Credits to [Cannibalox](https://github.com/cannibalox)
+
+---
