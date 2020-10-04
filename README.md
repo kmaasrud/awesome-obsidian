@@ -64,6 +64,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Bigger Link Popup Preview](#bigger-link-popup-preview)
     - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
     - [Tag Pills](#tag-pills)
+    - [Outliner For The Outline](#outliner-for-the-outline)
 
 ### Andy Matuschak mode
 
@@ -476,3 +477,30 @@ Credits to [deathau](https://github.com/deathau)
 Credits to uzerper
 
 ---
+
+### Outliner For The Outline
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* outliner for the outline */
+.outline-heading-children{
+  border-left: 1px solid rgba(118,158,165,0.2);
+  border-radius:0 0px 0px 0;
+  transition:all 0.5s ease-in-out;
+}
+.outline-heading-children:hover{
+  border-left-color:rgba(118,158,165,0.4);
+}
+/* outliner for the file and folders */
+.nav-folder,.nav-file{
+  margin:0 !important;
+  border-left: 1px solid rgba(118,158,165,0.2);
+}
+</code></pre>
+</details>
+
+Credits to Shamama
+
+---
+
