@@ -48,10 +48,15 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 Small tweaks to add to your `obsidian.css` file
 
-- [Andy Matuschak mode](#andy-matuschak-mode)
-- [Collapsing sidebar](#collapsing-sidebar)
-- [Bullet point relationship lines](#bullet-point-relationship-lines)
-- [Auto-fading UI](#auto-fading-ui)
+- [Table of contents](#table-of-contents)
+- [Handy tools](#handy-tools)
+- [Themes](#themes)
+- [CSS Tweaks](#css-tweaks)
+    - [Andy Matuschak mode](#andy-matuschak-mode)
+    - [Collapsing sidebar](#collapsing-sidebar)
+    - [Bullet point relationship lines](#bullet-point-relationship-lines)
+    - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+    - [Auto-fading UI](#auto-fading-ui)
 
 ### Andy Matuschak mode
 
@@ -195,6 +200,21 @@ ul ul::before { left: -11px; top: 0; bottom: 0;
 </details>
 
 Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Task List Preview relationship line Correction
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.contains-task-list::before { 
+  left: 10px ; 
+}
+</code></pre>
+</details>
+
+Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
 
 ---
 
