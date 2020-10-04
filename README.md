@@ -62,6 +62,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Nicer Check Boxes](#nicer-check-boxes)
     - [Stylish Block Quotes](#stylish-block-quotes)
     - [Bigger Link Popup Preview](#bigger-link-popup-preview)
+    - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
 
 ### Andy Matuschak mode
 
@@ -378,5 +379,32 @@ Credits to Théry Fouchter
 
 
 Credits to [Cannibalox](https://github.com/cannibalox)
+
+---
+
+### Custom icons differing files and folders
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* Emoji */
+/*.nav-file-title-content::before { content: '🗒 '; }
+.nav-folder-title-content::before { content: '📂 '; }*/
+
+/* Flat font */
+/* Requires: https://icomoon.io/#icons-icomoon/liga-font */
+.nav-folder-children .nav-file-title-content:first-child::before {
+  content: "\e924  ";
+  font-family: "IcoMoon-Free";
+}
+.nav-folder-children .nav-folder-title-content::before {
+  content: "\e930  ";
+  font-family: "IcoMoon-Free";
+}
+</code></pre>
+</details>
+
+
+Credits to [deathau](https://github.com/deathau)
 
 ---
