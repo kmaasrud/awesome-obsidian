@@ -247,6 +247,30 @@ Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
 </code></pre>
 </details>
 
+<details>
+<summary>Subtler folding gutter arrows</summary>
+<pre lang="css"><code>
+.CodeMirror-foldgutter-folded:after,
+.CodeMirror-foldgutter-open:after {
+  opacity: 0.5;
+  font-size: 60%;
+}
+
+.CodeMirror-foldgutter-folded:hover:after,
+.CodeMirror-foldgutter-open:hover:after {
+  opacity: 1;
+}
+
+.CodeMirror-foldgutter-folded:after {
+  content: "\25BA";
+}
+
+.CodeMirror-foldgutter-open:after {
+  content: "\25BC";
+}
+</code></pre>
+</details>
+
 Credits to Rumen Dimitrov
 
 ---
