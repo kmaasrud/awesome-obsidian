@@ -30,7 +30,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 | Name | Description | Image | Credits |
 | :--: | :---------- | ----- | ------: |
-[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha) 
+[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha)
 [80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md) | A retro-future 80s inspired theme for Obsidian.  | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg) | [deathau](https://github.com/deathau)
 [Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md) | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/. | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif) | [deathau](https://github.com/deathau)
 [Clean theme](https://github.com/kmaasrud/clean-theme-obsidian) | A minimal and clean theme designed to be clutter-free and easy on the eye. | ![](https://raw.githubusercontent.com/kmaasrud/clean-theme-obsidian/master/media/dark_shadow.png) | [kmaasrud](https://github.com/kmaasrud)
@@ -51,7 +51,16 @@ Small tweaks to add to your `obsidian.css` file
 - [Andy Matuschak mode](#andy-matuschak-mode)
 - [Collapsing sidebar](#collapsing-sidebar)
 - [Bullet point relationship lines](#bullet-point-relationship-lines)
+- [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
 - [Auto-fading UI](#auto-fading-ui)
+- [Hyphenation and Justification](#hyphenation-and-justification)
+- [Enlarge Image on Hover](#enlarge-image-on-hover)
+- [Nicer Check Boxes](#nicer-check-boxes)
+- [Stylish Block Quotes](#stylish-block-quotes)
+- [Bigger Link Popup Preview](#bigger-link-popup-preview)
+- [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+- [Tag Pills](#tag-pills)
+- [Outliner For The Outline](#outliner-for-the-outline)
 
 ### Andy Matuschak mode
 
@@ -60,11 +69,11 @@ Small tweaks to add to your `obsidian.css` file
 <pre lang="css"><code>
 /* everything under .mod-root now. Don't want Andy messing with sidebars */
 /* also, Andy only makes sense for vertical splits, at the root level, right? */
-.mod-root.workspace-split.mod-vertical { 
-  overflow-x:auto; 
+.mod-root.workspace-split.mod-vertical {
+  overflow-x:auto;
   --header-width: 36px; /* <- 36px is the header height in the default theme */
 }
-.mod-root.workspace-split.mod-vertical > div { 
+.mod-root.workspace-split.mod-vertical > div {
   min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
   box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
   position:sticky;
@@ -187,14 +196,29 @@ Credits to [kmaasrud](https://github.com/kmaasrud)
  border-left: 1px solid rgba(0, 122, 255, 0.25);
  position: absolute;
 }
-.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
+.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px;
 }
-ul ul::before { left: -11px; top: 0; bottom: 0; 
-} 
+ul ul::before { left: -11px; top: 0; bottom: 0;
+}
 </code></pre>
 </details>
 
 Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Task List Preview relationship line Correction
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.contains-task-list::before {
+  left: 10px ;
+}
+</code></pre>
+</details>
+
+Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
 
 ---
 
@@ -220,4 +244,259 @@ Credits to [deathau](https://github.com/deathau)
 </code></pre>
 </details>
 
+<details>
+<summary>Subtler folding gutter arrows</summary>
+<pre lang="css"><code>
+.CodeMirror-foldgutter-folded:after,
+.CodeMirror-foldgutter-open:after {
+  opacity: 0.5;
+  font-size: 60%;
+}
+
+.CodeMirror-foldgutter-folded:hover:after,
+.CodeMirror-foldgutter-open:hover:after {
+  opacity: 1;
+}
+
+.CodeMirror-foldgutter-folded:after {
+  content: "\25BA";
+}
+
+.CodeMirror-foldgutter-open:after {
+  content: "\25BC";
+}
+</code></pre>
+</details>
+
 Credits to Rumen Dimitrov
+
+---
+
+### Hyphenation and Justification
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.cm-s-obsidian,
+.markdown-preview-view {
+  text-align: justify;
+  hyphens: auto;
+}
+</code></pre>
+</details>
+
+
+Credits to Boyd
+
+---
+
+### Enlarge Image on Hover
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* experiment with values */
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(1.8); /* experiment with values */
+  transform: scale(2);
+}
+</code></pre>
+</details>
+
+
+Credits to Den
+
+---
+
+### Nicer Check Boxes
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* Round checkbxes in preview and editor */
+input[type=checkbox], .cm-formatting-task {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid var(--text-faint);
+    padding: 0;
+    vertical-align: middle;
+}
+
+.cm-s-obsidian span.cm-formatting-task {
+    color: transparent;
+    width: 1.25em !important;
+    height: 1.25em;
+    display: inline-block;
+}
+
+input[type=checkbox]:focus{
+  outline:0;
+}
+input[type=checkbox]:checked, .cm-formatting-task.cm-property {
+    background-color: var(--text-accent-hover);
+    border: 1px solid var(--text-accent-hover);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+</code></pre>
+</details>
+
+
+Credits to Kepano
+
+---
+
+### Stylish Block Quotes
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+/* Remove blockquote left margin */
+blockquote {
+  margin-inline-start: 0;
+}
+</code></pre>
+</details>
+
+Credits to Théry Fouchter
+
+---
+
+### Bigger Link Popup Preview
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/*============ bigger link popup preview ================*/
+.popover.hover-popover {
+    transform: scale(0.8); /* makes the content smaller */
+    max-height: 800px;    /* was 300 */
+    min-height: 100px;
+    width: 500px;     /* was 400 */
+}
+</code></pre>
+</details>
+
+
+Credits to [Cannibalox](https://github.com/cannibalox)
+
+---
+
+### Custom icons differing files and folders
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* Emoji */
+/*.nav-file-title-content::before { content: '🗒 '; }
+.nav-folder-title-content::before { content: '📂 '; }*/
+
+/* Flat font */
+/* Requires: https://icomoon.io/#icons-icomoon/liga-font */
+.nav-folder-children .nav-file-title-content:first-child::before {
+  content: "\e924  ";
+  font-family: "IcoMoon-Free";
+}
+.nav-folder-children .nav-folder-title-content::before {
+  content: "\e930  ";
+  font-family: "IcoMoon-Free";
+}
+</code></pre>
+</details>
+
+
+Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Tag Pills
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* ====== Tag Pills ======== */
+.tag:not(.token) {
+	background-color: var(--text-accent);
+	border: none;
+	color: white;
+	font-size: 11px;
+	padding: 1px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 0px;
+	cursor: pointer;
+	border-radius: 14px;
+}
+.tag:not(.token):hover {
+	color: white;
+	background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+	background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+	background-color: red;
+}
+.tag[href^="#complete"] {
+	background-color: green;
+}
+.tag[href^="#inprogress"] {
+	background-color: orange;
+}
+</code></pre>
+</details>
+
+
+Credits to uzerper
+
+---
+
+### Outliner For The Outline
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* outliner for the outline */
+.outline-heading-children{
+  border-left: 1px solid rgba(118,158,165,0.2);
+  border-radius:0 0px 0px 0;
+  transition:all 0.5s ease-in-out;
+}
+.outline-heading-children:hover{
+  border-left-color:rgba(118,158,165,0.4);
+}
+/* outliner for the file and folders */
+.nav-folder,.nav-file{
+  margin:0 !important;
+  border-left: 1px solid rgba(118,158,165,0.2);
+}
+</code></pre>
+</details>
+
+Credits to Shamama
+
+---
+
