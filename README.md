@@ -57,6 +57,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Bullet point relationship lines](#bullet-point-relationship-lines)
     - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
     - [Auto-fading UI](#auto-fading-ui)
+    - [Hyphenation and Justification](#hyphenation-and-justification)
 
 ### Andy Matuschak mode
 
@@ -241,3 +242,23 @@ Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
 </details>
 
 Credits to Rumen Dimitrov
+
+---
+
+### Hyphenation and Justification
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.cm-s-obsidian,
+.markdown-preview-view {
+  text-align: justify;
+  hyphens: auto;
+}
+</code></pre>
+</details>
+
+
+Credits to Klaas
+
+---
