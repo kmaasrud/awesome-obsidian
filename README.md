@@ -63,6 +63,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Stylish Block Quotes](#stylish-block-quotes)
     - [Bigger Link Popup Preview](#bigger-link-popup-preview)
     - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+    - [Tag Pills](#tag-pills)
 
 ### Andy Matuschak mode
 
@@ -406,5 +407,48 @@ Credits to [Cannibalox](https://github.com/cannibalox)
 
 
 Credits to [deathau](https://github.com/deathau)
+
+---
+
+### Tag Pills
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+/* ====== Tag Pills ======== */
+.tag:not(.token) {
+	background-color: var(--text-accent);
+	border: none;
+	color: white;
+	font-size: 11px;
+	padding: 1px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 0px;
+	cursor: pointer;
+	border-radius: 14px;
+}
+.tag:not(.token):hover {
+	color: white;
+	background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+	background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+	background-color: red;
+}
+.tag[href^="#complete"] {
+	background-color: green;
+}
+.tag[href^="#inprogress"] {
+	background-color: orange;
+}
+</code></pre>
+</details>
+
+
+Credits to uzerper
 
 ---
