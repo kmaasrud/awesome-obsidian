@@ -58,6 +58,7 @@ Small tweaks to add to your `obsidian.css` file
     - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
     - [Auto-fading UI](#auto-fading-ui)
     - [Hyphenation and Justification](#hyphenation-and-justification)
+    - [Enlarge Image on Hover](#enlarge-image-on-hover)
 
 ### Andy Matuschak mode
 
@@ -259,6 +260,33 @@ Credits to Rumen Dimitrov
 </details>
 
 
-Credits to Klaas
+Credits to Boyd
+
+---
+
+### Enlarge Image on Hover
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* experiment with values */
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(1.8); /* experiment with values */
+  transform: scale(2);
+}
+</code></pre>
+</details>
+
+
+Credits to Den
 
 ---
