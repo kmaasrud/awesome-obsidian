@@ -474,29 +474,34 @@ Credits to uzerper
 
 ---
 
-### Outliner For The Outline
+### Outliner For The Outline and File Explorer
 
 <details>
 <summary>CSS</summary>
 <pre lang="css"><code>
-/* outliner for the outline */
-.outline-heading-children{
-  border-left: 1px solid rgba(118,158,165,0.2);
-  border-radius:0 0px 0px 0;
+.outline .collapsible-item-children {
+  margin-left: 20px;
+  border-left: 1px solid var(--faded-aqua);
+  border-radius: 4px;
   transition:all 0.5s ease-in-out;
 }
-.outline-heading-children:hover{
-  border-left-color:rgba(118,158,165,0.4);
+.outline .collapsible-item-children:hover {
+  border-left-color: var(--faded-aqua);
 }
-/* outliner for the file and folders */
-.nav-folder,.nav-file{
-  margin:0 !important;
-  border-left: 1px solid rgba(118,158,165,0.2);
+.nav-folder-children .nav-folder-children {
+  margin-left: 20px;
+  padding-left: 0;
+  border-left: 1px solid var(--faded-aqua);
+  border-radius: 4px;
+  transition:all 0.5s ease-in-out;
+}
+.nav-folder-children .nav-folder-children:hover {
+  border-left-color: var(--faded-aqua);
 }
 </code></pre>
 </details>
 
-Credits to Shamama
+Credits to Shamama and Wonton
 
 ---
 
