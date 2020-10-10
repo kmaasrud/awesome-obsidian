@@ -61,6 +61,8 @@ Small tweaks to add to your `obsidian.css` file
   - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
   - [Tag Pills](#tag-pills)
   - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
+  - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
+  - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
 
 ### Andy Matuschak mode
 
