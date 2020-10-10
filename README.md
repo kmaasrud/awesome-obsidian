@@ -521,7 +521,7 @@ Credits to Shamama and Wonton
 
 ---
 
-### Make subtler folding gutter arrows:
+### Make subtler folding gutter arrows
 
 <!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/10 -->
 
@@ -550,6 +550,35 @@ Credits to Shamama and Wonton
 </details>
 
 Credits to rsdimitrov
+
+---
+
+### Better bullet points in edit mode
+
+<!-- https://forum.obsidian.md/t/clutter-free-edit-mode/6791/30 -->
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul {
+  color: transparent;
+  position: relative;
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul:after {
+  content: "•";
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  color: var(--bright-aqua);
+  font-family: sans-serif;
+  font-size: 20px;
+}
+</code></pre>
+</details>
+
+Credits to Piotr
 
 ---
 
