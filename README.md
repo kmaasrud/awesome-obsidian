@@ -48,23 +48,19 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 Small tweaks to add to your `obsidian.css` file
 
-- [Table of contents](#table-of-contents)
-- [Handy tools](#handy-tools)
-- [Themes](#themes)
-- [CSS Tweaks](#css-tweaks)
-    - [Andy Matuschak mode](#andy-matuschak-mode)
-    - [Collapsing sidebar](#collapsing-sidebar)
-    - [Bullet point relationship lines](#bullet-point-relationship-lines)
-    - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-    - [Auto-fading UI](#auto-fading-ui)
-    - [Hyphenation and Justification](#hyphenation-and-justification)
-    - [Enlarge Image on Hover](#enlarge-image-on-hover)
-    - [Nicer Check Boxes](#nicer-check-boxes)
-    - [Stylish Block Quotes](#stylish-block-quotes)
-    - [Bigger Link Popup Preview](#bigger-link-popup-preview)
-    - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-    - [Tag Pills](#tag-pills)
-    - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
+  - [Andy Matuschak mode](#andy-matuschak-mode)
+  - [Collapsing sidebar](#collapsing-sidebar)
+  - [Bullet point relationship lines](#bullet-point-relationship-lines)
+  - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+  - [Auto-fading UI](#auto-fading-ui)
+  - [Hyphenation and Justification](#hyphenation-and-justification)
+  - [Enlarge Image on Hover](#enlarge-image-on-hover)
+  - [Nicer Check Boxes](#nicer-check-boxes)
+  - [Stylish Block Quotes](#stylish-block-quotes)
+  - [Bigger Link Popup Preview](#bigger-link-popup-preview)
+  - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+  - [Tag Pills](#tag-pills)
+  - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 
 ### Andy Matuschak mode
 
