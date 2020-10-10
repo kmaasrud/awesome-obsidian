@@ -48,19 +48,23 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 
 Small tweaks to add to your `obsidian.css` file
 
-- [Andy Matuschak mode](#andy-matuschak-mode)
-- [Collapsing sidebar](#collapsing-sidebar)
-- [Bullet point relationship lines](#bullet-point-relationship-lines)
-- [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-- [Auto-fading UI](#auto-fading-ui)
-- [Hyphenation and Justification](#hyphenation-and-justification)
-- [Enlarge Image on Hover](#enlarge-image-on-hover)
-- [Nicer Check Boxes](#nicer-check-boxes)
-- [Stylish Block Quotes](#stylish-block-quotes)
-- [Bigger Link Popup Preview](#bigger-link-popup-preview)
-- [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-- [Tag Pills](#tag-pills)
-- [Outliner For The Outline](#outliner-for-the-outline)
+- [Table of contents](#table-of-contents)
+- [Handy tools](#handy-tools)
+- [Themes](#themes)
+- [CSS Tweaks](#css-tweaks)
+    - [Andy Matuschak mode](#andy-matuschak-mode)
+    - [Collapsing sidebar](#collapsing-sidebar)
+    - [Bullet point relationship lines](#bullet-point-relationship-lines)
+    - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+    - [Auto-fading UI](#auto-fading-ui)
+    - [Hyphenation and Justification](#hyphenation-and-justification)
+    - [Enlarge Image on Hover](#enlarge-image-on-hover)
+    - [Nicer Check Boxes](#nicer-check-boxes)
+    - [Stylish Block Quotes](#stylish-block-quotes)
+    - [Bigger Link Popup Preview](#bigger-link-popup-preview)
+    - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+    - [Tag Pills](#tag-pills)
+    - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 
 ### Andy Matuschak mode
 
@@ -274,6 +278,8 @@ Credits to Rumen Dimitrov
 
 ### Hyphenation and Justification
 
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/25 -->
+
 <details>
 <summary>CSS</summary>
 <pre lang="css"><code>
@@ -291,6 +297,8 @@ Credits to Boyd
 ---
 
 ### Enlarge Image on Hover
+
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/29 -->
 
 <details>
 <summary>CSS</summary>
@@ -318,6 +326,8 @@ Credits to Den
 ---
 
 ### Nicer Check Boxes
+
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/34 -->
 
 <details>
 <summary>CSS</summary>
@@ -360,6 +370,8 @@ Credits to Kepano
 
 ### Stylish Block Quotes
 
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39 -->
+
 <details>
 <summary>CSS</summary>
 <pre lang="css"><code>
@@ -386,6 +398,8 @@ Credits to Théry Fouchter
 
 ### Bigger Link Popup Preview
 
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/82 -->
+
 <details>
 <summary>CSS</summary>
 <pre lang="css"><code>
@@ -405,6 +419,8 @@ Credits to [Cannibalox](https://github.com/cannibalox)
 ---
 
 ### Custom icons differing files and folders
+
+<!-- https://discordapp.com/channels/686053708261228577/702656734631821413/755293685046050896 -->
 
 <details>
 <summary>CSS</summary>
@@ -432,6 +448,8 @@ Credits to [deathau](https://github.com/deathau)
 ---
 
 ### Tag Pills
+
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/72 -->
 
 <details>
 <summary>CSS</summary>
@@ -475,6 +493,8 @@ Credits to uzerper
 ---
 
 ### Outliner For The Outline and File Explorer
+
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/112 -->
 
 <details>
 <summary>CSS</summary>
