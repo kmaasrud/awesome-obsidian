@@ -63,6 +63,7 @@ Small tweaks to add to your `obsidian.css` file
   - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
   - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
   - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
+  - [Bigger popup windows](#Bigger-popup-windows)
 
 ### Andy Matuschak mode
 
@@ -584,3 +585,32 @@ Credits to Piotr
 
 ---
 
+### Bigger popup windows
+
+<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/175 -->
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+
+.popover.hover-popover {
+  transform: scale(0.8); /* makes the content smaller */
+  max-height: 800px;
+  min-height: 50px;
+  width: 500px;
+  overflow: overlay; /* new added */
+}
+
+.popover.hover-popover .markdown-embed  {
+  height: 100%;
+}
+
+.popover.hover-popover.is-loaded .markdown-embed .markdown-embed-content .markdown-preview-view{
+padding: 10px 10px 10px 16px; /*16px  two pop magin */
+}
+</code></pre>
+</details>
+
+Credits to Echo
+
+---
