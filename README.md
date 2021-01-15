@@ -22,7 +22,8 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian | [connertennery](https://github.com/connertennery) |
 | [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [akosbalasko](https://github.com/akosbalasko) |
-| [Obsidian to HTML converter](https://github.com/kmaasrud/obsidian-html) | Python script that converts an Obsidian vault into HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
+| [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
+| [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [jplattel](https://github.com/jplattel) |
 
 # Themes
 
