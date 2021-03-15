@@ -24,6 +24,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [akosbalasko](https://github.com/akosbalasko) |
 | [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
 | [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [jplattel](https://github.com/jplattel) |
+| [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
 
 # Themes
 
