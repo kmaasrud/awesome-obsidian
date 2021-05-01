@@ -25,6 +25,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
 | [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [jplattel](https://github.com/jplattel) |
 | [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
+| [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 
 # Themes
 
