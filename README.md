@@ -67,6 +67,7 @@ Small tweaks to add to your `obsidian.css` file
   - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
   - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
   - [Bigger popup windows](#Bigger-popup-windows)
+  - [Image cards](#Image-cards)
 
 ### Andy Matuschak mode
 
@@ -615,5 +616,25 @@ padding: 10px 10px 10px 16px; /*16px  two pop magin */
 </details>
 
 Credits to Echo
+
+---
+
+### Image cards
+
+<details>
+<summary>CSS</summary>
+<pre lang="css"><code>
+
+img {
+border-radius: 4px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+background-color: var(--background-secondary); /_ Background color so PNGs with transparent backgrounds don't look weird _/
+}
+
+</code></pre>
+
+</details>
+
+Credits to [TClark1011](https://github.com/TClark1011)
 
 ---
