@@ -16,58 +16,58 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 
 # Handy tools
 
-|                                             Name                                              | Description                                                                                                                      |                                                                                                                  Credits |
-| :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------: |
-|                  [Markdownload](https://github.com/deathau/markdown-clipper)                  | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.                          |                                                                                    [deathau](https://github.com/deathau) |
-|       [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown)        | Firefox add-on to copy a selection or link as formatted Markdown                                                                 |                                                                                          [0x6b](https://github.com/0x6b) |
-| [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian                                                                       |                                                                        [connertennery](https://github.com/connertennery) |
-|     [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle)     | Node.js app to convert exported Evernote notes to Markdown (Obsidian)                                                            |                                                                            [akosbalasko](https://github.com/akosbalasko) |
-|             [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe)             | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. |                                                                                  [kmaasrud](https://github.com/kmaasrud) |
-|               [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper)                | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian                      |                                                                                  [jplattel](https://github.com/jplattel) |
-|      [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates)      | A set of Markdown templates for common Obsidian use cases                                                                        | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
-|          [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner)           | Plugin for day planning and managing pomodoro timers from a task list                                                            |                                                                              [lynchjames](https://github.com/lynchjames) |
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
+| [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
+| [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian | [connertennery](https://github.com/connertennery) |
+| [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [akosbalasko](https://github.com/akosbalasko) |
+| [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
+| [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [jplattel](https://github.com/jplattel) |
+| [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
+| [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 
 # Themes
 
 Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
 
-|                                          Name                                           | Description                                                                                                                        | Image                                                                                                |                                                                                                                            Credits |
-| :-------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-|               [Official Dracula theme](https://draculatheme.com/obsidian)               | A dark theme hosted by the official Dracula guys                                                                                   | ![](https://draculatheme.com/static/img/screenshots/obsidian.png)                                    | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha) |
-|             [80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md)             | A retro-future 80s inspired theme for Obsidian.                                                                                    | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg)        |                                                                                              [deathau](https://github.com/deathau) |
-|            [Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md)            | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/.               | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif)          |                                                                                              [deathau](https://github.com/deathau) |
-|             [Clean theme](https://github.com/kmaasrud/clean-theme-obsidian)             | A minimal and clean theme designed to be clutter-free and easy on the eye.                                                         | ![](https://raw.githubusercontent.com/kmaasrud/clean-theme-obsidian/master/media/dark_shadow.png)    |                                                                                            [kmaasrud](https://github.com/kmaasrud) |
-|              [OneDark Theme](https://github.com/pionxzh/OneDark-obsidian)               | This theme is based on One Dark Pro and One Dark Pro is based on Atom's default One Dark theme. Currently only supports Dark mode. | ![](https://raw.githubusercontent.com/pionxzh/OneDark-obsidian/master/img/sample_1.png)              |                                                                                              [pionxzh](https://github.com/pionxzh) |
-|             [Dracula](https://github.com/jarodise/Dracula-for-Obsidian.md)              | A dark theme for Obsidian.                                                                                                         | ![](https://raw.githubusercontent.com/jarodise/Dracula-for-Obsidian.md/master/screencap.jpg)         |                                                                                            [jarodise](https://github.com/jarodise) |
-| [Comfort Color Dark Theme](https://github.com/obsidian-ezs/obsidian-comfort-color-dark) | A dark theme for Obsidian.                                                                                                         | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-comfort-color-dark/master/screencap.png) |                                                                                    [obsidian-ezs](https://github.com/obsidian-ezs) |
-|              [Gruvbox Theme](https://github.com/insanum/obsidian_gruvbox)               | This is a gruvbox theme for Obsidian. It supports both light and dark modes.                                                       | ![](https://raw.githubusercontent.com/insanum/obsidian_gruvbox/master/dark.png)                      |                                                                                              [insanum](https://github.com/insanum) |
-|            [Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md)            | A light theme for Obsidian.                                                                                                        | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png)    |                                                                                          [dogwaddle](https://github.com/dogwaddle) |
-|                  [Ursa](https://github.com/obsidian-ezs/obsidian-ursa)                  | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing.             | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png)        |                                                                                    [obsidian-ezs](https://github.com/obsidian-ezs) |
-|           [Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized)           | This is just a recolor based on the solarized color scheme.                                                                        | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/light.png)                   |                                                                                              [Slowbad](https://github.com/Slowbad) |
-|          [Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian)          | A light theme for Obsidian, based on Bear.app's Red Graphite theme.                                                                | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png)    |                                                                                            [seanwcom](https://github.com/seanwcom) |
-|               [Obsidian + Nord](https://github.com/insanum/obsidian_nord)               | A Nord-based theme for Obsidian, only supporting dark mode                                                                         | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png)                       |                                                                                              [insanum](https://github.com/insanum) |
+| Name | Description | Image | Credits |
+| :--: | :---------- | ----- | ------: |
+[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha)
+[80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md) | A retro-future 80s inspired theme for Obsidian.  | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg) | [deathau](https://github.com/deathau)
+[Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md) | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/. | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif) | [deathau](https://github.com/deathau)
+[Clean theme](https://github.com/kmaasrud/clean-theme-obsidian) | A minimal and clean theme designed to be clutter-free and easy on the eye. | ![](https://raw.githubusercontent.com/kmaasrud/clean-theme-obsidian/master/media/dark_shadow.png) | [kmaasrud](https://github.com/kmaasrud)
+[OneDark Theme](https://github.com/pionxzh/OneDark-obsidian) | This theme is based on One Dark Pro and One Dark Pro is based on Atom's default One Dark theme. Currently only supports Dark mode. | ![](https://raw.githubusercontent.com/pionxzh/OneDark-obsidian/master/img/sample_1.png) | [pionxzh](https://github.com/pionxzh)
+[Dracula](https://github.com/jarodise/Dracula-for-Obsidian.md) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/jarodise/Dracula-for-Obsidian.md/master/screencap.jpg) | [jarodise](https://github.com/jarodise)
+[Comfort Color Dark Theme](https://github.com/obsidian-ezs/obsidian-comfort-color-dark) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-comfort-color-dark/master/screencap.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
+[Gruvbox Theme](https://github.com/insanum/obsidian_gruvbox) | This is a gruvbox theme for Obsidian. It supports both light and dark modes. | ![](https://raw.githubusercontent.com/insanum/obsidian_gruvbox/master/dark.png) | [insanum](https://github.com/insanum)
+[Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md) | A light theme for Obsidian. | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png) | [dogwaddle](https://github.com/dogwaddle)
+[Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
+[Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/light.png) | [Slowbad](https://github.com/Slowbad)
+[Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
+[Obsidian + Nord](https://github.com/insanum/obsidian_nord) | A Nord-based theme for Obsidian, only supporting dark mode | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png) | [insanum](https://github.com/insanum) |
 
 # CSS Tweaks
 
 Small tweaks to add to your `obsidian.css` file
 
-- [Andy Matuschak mode](#andy-matuschak-mode)
-- [Collapsing sidebar](#collapsing-sidebar)
-- [Bullet point relationship lines](#bullet-point-relationship-lines)
-- [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-- [Auto-fading UI](#auto-fading-ui)
-- [Hyphenation and Justification](#hyphenation-and-justification)
-- [Enlarge Image on Hover](#enlarge-image-on-hover)
-- [Nicer Check Boxes](#nicer-check-boxes)
-- [Stylish Block Quotes](#stylish-block-quotes)
-- [Bigger Link Popup Preview](#bigger-link-popup-preview)
-- [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-- [Tag Pills](#tag-pills)
-- [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
-- [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
-- [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
-- [Bigger popup windows](#Bigger-popup-windows)
-- [Image cards](#Image-cards)
+  - [Andy Matuschak mode](#andy-matuschak-mode)
+  - [Collapsing sidebar](#collapsing-sidebar)
+  - [Bullet point relationship lines](#bullet-point-relationship-lines)
+  - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+  - [Auto-fading UI](#auto-fading-ui)
+  - [Hyphenation and Justification](#hyphenation-and-justification)
+  - [Enlarge Image on Hover](#enlarge-image-on-hover)
+  - [Nicer Check Boxes](#nicer-check-boxes)
+  - [Stylish Block Quotes](#stylish-block-quotes)
+  - [Bigger Link Popup Preview](#bigger-link-popup-preview)
+  - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+  - [Tag Pills](#tag-pills)
+  - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
+  - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
+  - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
+  - [Bigger popup windows](#Bigger-popup-windows)
+  - [Image cards](#Image-cards)
 
 ### Andy Matuschak mode
 
@@ -87,87 +87,86 @@ Small tweaks to add to your `obsidian.css` file
   left:0;
 }
 
-/_ shift sticky position, so titles will stack up to the left _/
-/_ This will currently stack to a maximum of 10 before resetting _/
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) _ 0); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) _ 1); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) _ 2); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) _ 3); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) _ 4); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) _ 5); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) _ 6); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) _ 7); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) _ 8); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) _ 9); }
+/* shift sticky position, so titles will stack up to the left */
+/* This will currently stack to a maximum of 10 before resetting */
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) * 0); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) * 1); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) * 2); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) * 3); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) * 4); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) * 5); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) * 6); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) * 7); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) * 8); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) * 9); }
 
-/_ now it's time for the fancy vertical titles _/
+/* now it's time for the fancy vertical titles */
 
-/_ first we'll add a bit of gap for the title to sit inside of _/
+/* first we'll add a bit of gap for the title to sit inside of */
 .workspace-leaf-content {
-padding-left: var(--header-width);
-position: relative;
+  padding-left: var(--header-width);
+  position: relative;
 }
 
-/_ this is where the magic happens _/
+/* this is where the magic happens */
 .view-header {
-writing-mode: vertical-lr;
-border-right: 1px solid var(--background-secondary-alt);
-border-left: 2px solid var(--background-secondary-alt);
-border-top: none;
-border-bottom: none;
-height: auto;
-width: var(--header-width);
-position: absolute;
-left:0;
-top:0;
-bottom:0;
+  writing-mode: vertical-lr;
+  border-right: 1px solid var(--background-secondary-alt);
+  border-left: 2px solid var(--background-secondary-alt);
+  border-top: none;
+  border-bottom: none;
+  height: auto;
+  width: var(--header-width);
+  position: absolute;
+  left:0;
+  top:0;
+  bottom:0;
 }
 
-/_ active titles have different border colours _/
+/* active titles have different border colours */
 .workspace-leaf.mod-active .view-header {
-border-right: 2px solid var(--interactive-accent);
-border-bottom: none;
+  border-right: 2px solid var(--interactive-accent);
+  border-bottom: none;
 }
 
-/_ unset the title container height and swap padding _/
+/* unset the title container height and swap padding */
 .view-header-title-container {
-height: unset;
-padding-left: unset;
-padding-top: 5px;
+  height: unset;
+  padding-left: unset;
+  padding-top: 5px;
 }
 
-/_ fix the long-title-obscuring shadows _/
+/* fix the long-title-obscuring shadows */
 .view-header-title-container:after {
-width: 100%;
-height: 30px;
-top:unset;
-bottom: 0;
-background: linear-gradient(to bottom, transparent, var(--background-secondary));
+  width: 100%;
+  height: 30px;
+  top:unset;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, var(--background-secondary));
 }
 .workspace-leaf.mod-active .view-header-title-container:after {
-background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
+  background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
 }
 
-/_ swap the padding/margin around for the header and actions icons _/
+/* swap the padding/margin around for the header and actions icons */
 .view-header-icon, .view-actions {
-padding: 10px 5px;
+  padding: 10px 5px;
 }
 .view-action {
-margin: 8px 0;
+  margin: 8px 0;
 }
 
-/_ get rid of the gap left by the now-missing horizontal title _/
+/* get rid of the gap left by the now-missing horizontal title */
 .view-content {
-height: 100%;
+  height: 100%;
 }
 
-/_ make the fake drop target overlay have a background so you can see it. _/
-/_ TODO: figure out how the fake target overlay works so we can put the title back, too _/
+/* make the fake drop target overlay have a background so you can see it. */
+/* TODO: figure out how the fake target overlay works so we can put the title back, too */
 .workspace-fake-target-overlay {
-background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 </code></pre>
-
 </details>
 
 Credits to [deathau](https://github.com/deathau)
@@ -263,18 +262,17 @@ Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
 
 .CodeMirror-foldgutter-folded:hover:after,
 .CodeMirror-foldgutter-open:hover:after {
-opacity: 1;
+  opacity: 1;
 }
 
 .CodeMirror-foldgutter-folded:after {
-content: "\25BA";
+  content: "\25BA";
 }
 
 .CodeMirror-foldgutter-open:after {
-content: "\25BC";
+  content: "\25BC";
 }
 </code></pre>
-
 </details>
 
 Credits to Rumen Dimitrov
@@ -295,6 +293,7 @@ Credits to Rumen Dimitrov
 }
 </code></pre>
 </details>
+
 
 Credits to Boyd
 
@@ -318,12 +317,12 @@ Credits to Boyd
 }
 
 .markdown-preview-view img:hover {
--webkit-transform: scale(1.8); /_ experiment with values _/
-transform: scale(2);
+  -webkit-transform: scale(1.8); /* experiment with values */
+  transform: scale(2);
 }
 </code></pre>
-
 </details>
+
 
 Credits to Den
 
@@ -347,26 +346,26 @@ input[type=checkbox], .cm-formatting-task {
 }
 
 .cm-s-obsidian span.cm-formatting-task {
-color: transparent;
-width: 1.25em !important;
-height: 1.25em;
-display: inline-block;
+    color: transparent;
+    width: 1.25em !important;
+    height: 1.25em;
+    display: inline-block;
 }
 
 input[type=checkbox]:focus{
-outline:0;
+  outline:0;
 }
 input[type=checkbox]:checked, .cm-formatting-task.cm-property {
-background-color: var(--text-accent-hover);
-border: 1px solid var(--text-accent-hover);
-background-position: center;
-background-size: 70%;
-background-repeat: no-repeat;
-background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+    background-color: var(--text-accent-hover);
+    border: 1px solid var(--text-accent-hover);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
 }
 </code></pre>
-
 </details>
+
 
 Credits to Kepano
 
@@ -417,6 +416,7 @@ Credits to Théry Fouchter
 </code></pre>
 </details>
 
+
 Credits to [Cannibalox](https://github.com/cannibalox)
 
 ---
@@ -432,19 +432,19 @@ Credits to [Cannibalox](https://github.com/cannibalox)
 /*.nav-file-title-content::before { content: '🗒 '; }
 .nav-folder-title-content::before { content: '📂 '; }*/
 
-/_ Flat font _/
-/_ Requires: https://icomoon.io/#icons-icomoon/liga-font _/
+/* Flat font */
+/* Requires: https://icomoon.io/#icons-icomoon/liga-font */
 .nav-folder-children .nav-file-title-content:first-child::before {
-content: "\e924 ";
-font-family: "IcoMoon-Free";
+  content: "\e924  ";
+  font-family: "IcoMoon-Free";
 }
 .nav-folder-children .nav-folder-title-content::before {
-content: "\e930 ";
-font-family: "IcoMoon-Free";
+  content: "\e930  ";
+  font-family: "IcoMoon-Free";
 }
 </code></pre>
-
 </details>
+
 
 Credits to [deathau](https://github.com/deathau)
 
@@ -489,6 +489,7 @@ Credits to [deathau](https://github.com/deathau)
 }
 </code></pre>
 </details>
+
 
 Credits to uzerper
 
@@ -542,18 +543,17 @@ Credits to Shamama and Wonton
 
 .CodeMirror-foldgutter-folded:hover:after,
 .CodeMirror-foldgutter-open:hover:after {
-opacity: 1;
+  opacity: 1;
 }
 
 .CodeMirror-foldgutter-folded:after {
-content: "\25BA";
+  content: "\25BA";
 }
 
 .CodeMirror-foldgutter-open:after {
-content: "\25BC";
+  content: "\25BC";
 }
 </code></pre>
-
 </details>
 
 Credits to rsdimitrov
@@ -569,21 +569,20 @@ Credits to rsdimitrov
 <pre lang="css"><code>
 
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul {
-color: transparent;
-position: relative;
+  color: transparent;
+  position: relative;
 }
 
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul:after {
-content: "•";
-position: absolute;
-top: -6px;
-left: 4px;
-color: var(--bright-aqua);
-font-family: sans-serif;
-font-size: 20px;
+  content: "•";
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  color: var(--bright-aqua);
+  font-family: sans-serif;
+  font-size: 20px;
 }
 </code></pre>
-
 </details>
 
 Credits to Piotr
@@ -599,22 +598,21 @@ Credits to Piotr
 <pre lang="css"><code>
 
 .popover.hover-popover {
-transform: scale(0.8); /_ makes the content smaller _/
-max-height: 800px;
-min-height: 50px;
-width: 500px;
-overflow: overlay; /_ new added _/
+  transform: scale(0.8); /* makes the content smaller */
+  max-height: 800px;
+  min-height: 50px;
+  width: 500px;
+  overflow: overlay; /* new added */
 }
 
-.popover.hover-popover .markdown-embed {
-height: 100%;
+.popover.hover-popover .markdown-embed  {
+  height: 100%;
 }
 
 .popover.hover-popover.is-loaded .markdown-embed .markdown-embed-content .markdown-preview-view{
-padding: 10px 10px 10px 16px; /_16px two pop magin _/
+padding: 10px 10px 10px 16px; /*16px  two pop magin */
 }
 </code></pre>
-
 </details>
 
 Credits to Echo
