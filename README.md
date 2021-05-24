@@ -628,7 +628,7 @@ Credits to Echo
 img {
 border-radius: 4px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-background-color: var(--background-secondary); /_ Background color so PNGs with transparent backgrounds don't look weird _/
+background-color: var(--background-secondary); /* Background color so PNGs with transparent backgrounds don't look weird */
 }
 
 </code></pre>
