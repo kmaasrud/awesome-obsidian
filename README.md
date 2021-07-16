@@ -27,6 +27,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 | [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 
+
 # Themes
 
 Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
@@ -45,6 +46,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/screenshot.png) | [Slowbad](https://github.com/Slowbad)
 [Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
 [Obsidian + Nord](https://github.com/insanum/obsidian_nord) | A Nord-based theme for Obsidian, only supporting dark mode | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png) | [insanum](https://github.com/insanum) |
+[Illusion Theme](https://github.com/ZaherAlMajed/Illusion-Theme.md) | A light theme for Obsidian. The theme is comfortable to the eye everything is a bit bigger and contrasted, combining dark & light themes gave it a unique touch. | ![](https://user-images.githubusercontent.com/54148795/125782571-78762279-c644-477a-9cdb-0666603190b9.png) | [Zaher Al Majed](https://github.com/ZaherAlMajed)|
 
 # CSS Tweaks
 
