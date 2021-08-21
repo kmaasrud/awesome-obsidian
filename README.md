@@ -92,14 +92,6 @@ Relationship lines that shows hierarchy, like in code editors.
 [📁 bullet-point-relationship-lines.css](code/css-snippets/bullet-point-relationship-lines.css)
 
 ---
-
-## [Task List Preview Relationship Line Correction](code/css-snippets/task-list-preview-relationship-line-correction.css)
-by [@d00b](https://forum.obsidian.md/u/d00b/summary)
-
-[📁 task-list-preview-relationship-line-correction.css](code/css-snippets/task-list-preview-relationship-line-correction.css)
-
----
-
 ## [Auto-fading UI](code/css-snippets/autofading-ui.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
