@@ -2,7 +2,17 @@
 
 <div align="center">
 
-A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/).
+A curated list of awesome themes, plugins and more for [Obsidian](https://obsidian.md/).
+
+<a href="https://discord.gg/veuWUTm">
+  <img src="https://img.shields.io/discord/686053708261228577?color=%234E5D94%20&label=Obsidian Discord Server&logo=Discord&logoColor=white">
+</a>
+<a href="https://www.reddit.com/r/ObsidianMD/">
+  <img src="https://img.shields.io/reddit/subreddit-subscribers/obsidianmd?label=r%2Fobsidianmd&logo=reddit&logoColor=white&?link=https://www.reddit.com/r/ObsidianMD/">
+</a>
+<a href="https://forum.obsidian.md/">
+  <img src="https://img.shields.io/badge/Obsidian Forum-Discuss-%238471DA">
+</a>
 
 </div>
 
