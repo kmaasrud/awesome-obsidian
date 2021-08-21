@@ -70,76 +70,87 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Tag Pills](#tag-pills)
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
-- [Bigger Popup Windows](#Bigger-popup-windows)
-- [Image Cards](#Image-cards)
+- [Bigger Popup Windows](#bigger-popup-windows)
+- [Image Cards](#image-cards)
 
 Not enough? There are many other places related to snippets:
 - [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css/l/top)
 - [CSS snippets in Obsidian Help](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets)
 - [Other GitHub repositories](https://github.com/search?q=obsidian-snippets)
-## [Collapsing Sidebar](code/css-snippets/collapsing-sidebar.css) by [@Kmaasrud](https://github.com/kmaasrud)
+## [Collapsing Sidebar](code/css-snippets/collapsing-sidebar.css)
+by [@Kmaasrud](https://github.com/kmaasrud)
 
 [📁 collapsing-sidebar.css](code/css-snippets/collapsing-sidebar.css)
 
 ---
-## [Bullet Point Relationship Lines](code/css-snippets/bullet-point-relationship-lines.css) by [@deathau](https://github.com/deathau)
+## [Bullet Point Relationship Lines](code/css-snippets/bullet-point-relationship-lines.css)
+by [@deathau](https://github.com/deathau)
 
 [📁 bullet-point-relationship-lines.css](code/css-snippets/bullet-point-relationship-lines.css)
 
 ---
 
-## [Task List Preview Relationship Line Correction](code/css-snippets/task-list-preview-relationship-line-correction.css) by [@d00b](https://forum.obsidian.md/u/d00b/summary)
+## [Task List Preview Relationship Line Correction](code/css-snippets/task-list-preview-relationship-line-correction.css)
+by [@d00b](https://forum.obsidian.md/u/d00b/summary)
 
 [📁 task-list-preview-relationship-line-correction.css](code/css-snippets/task-list-preview-relationship-line-correction.css)
 
 ---
 
-## [Auto-fading UI](code/css-snippets/autofading-ui.css) by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
+## [Auto-fading UI](code/css-snippets/autofading-ui.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
 
-## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css) by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
+## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 [📁 subtler-folding-gutter-arrows.css](code/css-snippets/subtler-folding-gutter-arrows.css)
 
 ---
 
-## [Hyphenation and Justification](code/css-snippets/hyphenation-and-justification.css) by [@Boyd](https://forum.obsidian.md/u/boyd/summary)
+## [Hyphenation and Justification](code/css-snippets/hyphenation-and-justification.css)
+by [@Boyd](https://forum.obsidian.md/u/boyd/summary)
 
 [📁 hyphenation-and-justification.css](code/css-snippets/hyphenation-and-justification.css)
 
 ---
 
-## [Enlarge Image on Hover](code/css-snippets/enlarge-image-on-hover.css) by [@den](https://forum.obsidian.md/u/den/summary)
+## [Enlarge Image on Hover](code/css-snippets/enlarge-image-on-hover.css)
+by [@den](https://forum.obsidian.md/u/den/summary)
 
 
 [📁 enlarge-image-on-hover.css](code/css-snippets/enlarge-image-on-hover.css)
 
 ---
 
-## [Nicer Check Boxes](code\css-snippets\nicer-checkboxes.css) by [@kepano](https://forum.obsidian.md/u/kepano/summary)
+## [Nicer Check Boxes](code\css-snippets\nicer-checkboxes.css)
+by [@kepano](https://forum.obsidian.md/u/kepano/summary)
 
 [📁 nicer-checkboxes.css](code\css-snippets\nicer-checkboxes.css)
 
 ---
 
-## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css) by [@Thery](https://forum.obsidian.md/u/Thery/summary)
+## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css)
+by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
 
 [📁 stylish-blockquotes.css](code\css-snippets\stylish-blockquotes.css)
 
 ---
 
-## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css) by [@Cannibalox](https://github.com/cannibalox)
+## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css)
+by [@Cannibalox](https://github.com/cannibalox)
 
 [📁 bigger-link-popup-preview.css](code\css-snippets\bigger-link-popup-preview.css)
 
 ---
 
-## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css) by [@deathau](https://github.com/deathau)
+## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css)
+by [@deathau](https://github.com/deathau)
 
 [📁 custom-icons-differing-files-and-folders.css](code\css-snippets\custom-icons-differing-files-and-folders.css)
 
@@ -147,32 +158,36 @@ Not enough? There are many other places related to snippets:
 
 ---
 
-## [Tag Pills](code\css-snippets\tag-pills.css) by [@uzerper](https://forum.obsidian.md/u/uzerper)
+## [Tag Pills](code\css-snippets\tag-pills.css)
+by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
 [📁 tag-pills.css](code\css-snippets\tag-pills.css)
 
 ---
 
-## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css) by [@Shamama](https://forum.obsidian.md/u/Shamama) & [@wonton](https://forum.obsidian.md/u/wonton/summary)
+## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+by [@Shamama](https://forum.obsidian.md/u/Shamama) & [@wonton](https://forum.obsidian.md/u/wonton/summary)
 
 [📁 outliner-for-the-outline-and-file-explorer.css](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
 
 ---
-## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css) by [@Piotr](https://forum.obsidian.md/u/Piotr)
-
-<!-- https://forum.obsidian.md/t/clutter-free-edit-mode/6791/30 -->
+## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css)
+by [@Piotr](https://forum.obsidian.md/u/Piotr)
 
 [📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
 
 ---
 
-## [Bigger Popup Windows](code\css-snippets\bigger-popup-windows.css) by [@Echo](https://forum.obsidian.md/u/echo)
+## [Bigger Popup Windows](code\css-snippets\bigger-popup-windows.css)
+by [@Echo](https://forum.obsidian.md/u/echo)
 
 [📁 bigger-popup-windows.css.css](code\css-snippets\bigger-popup-windows.css)
 
 ---
 
-## [Image Cards](code/css-snippets/image-cards.css) by [@TClark1011](https://github.com/TClark1011)
+## [Image Cards](code/css-snippets/image-cards.css)
+by [@TClark1011](https://github.com/TClark1011)
+
 Give your images a shadow and rounded corners.
 
 ![](media/css-snippets/image-cards-1.png)
