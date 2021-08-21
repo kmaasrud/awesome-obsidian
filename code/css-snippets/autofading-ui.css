@@ -21,23 +21,3 @@
   width: 3px;
   height: 3px;
 }
-
-/* Subtler folding gutter arrows */
-.CodeMirror-foldgutter-folded:after,
-.CodeMirror-foldgutter-open:after {
-  opacity: 0.5;
-  font-size: 60%;
-}
-
-.CodeMirror-foldgutter-folded:hover:after,
-.CodeMirror-foldgutter-open:hover:after {
-  opacity: 1;
-}
-
-.CodeMirror-foldgutter-folded:after {
-  content: "\25BA";
-}
-
-.CodeMirror-foldgutter-open:after {
-  content: "\25BC";
-}
