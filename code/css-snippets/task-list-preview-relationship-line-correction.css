@@ -1,0 +1,7 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/d00b/summary */
+/* source: https://forum.obsidian.md/t/bullet-lines-in-css-for-checkboxes/6262/3 */
+
+.contains-task-list::before {
+  left: 10px;
+}

@@ -1,0 +1,33 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/uzerper */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/72 */
+
+.tag:not(.token) {
+  background-color: var(--text-accent);
+  border: none;
+  color: white;
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.tag:not(.token):hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+  background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+  background-color: red;
+}
+.tag[href^="#complete"] {
+  background-color: green;
+}
+.tag[href^="#inprogress"] {
+  background-color: orange;
+}
