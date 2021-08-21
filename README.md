@@ -99,6 +99,13 @@ by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
+## [Smaller Scrollbar](code\css-snippets\smaller-scrollbar.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
+
+[📁 smaller-scrollbar.css](code\css-snippets\smaller-scrollbar.css)
+
+
+---
 
 ## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
