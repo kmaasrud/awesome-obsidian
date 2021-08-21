@@ -12,7 +12,7 @@ A curated list of awesome themes and plugins for [Obsidian](https://obsidian.md/
 
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
-- [CSS Tweaks](#css-tweaks)
+- [CSS Snippets](#css-snippets)
 
 # Handy tools
 
@@ -52,28 +52,32 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
 
 
-# CSS Tweaks
+# CSS Snippets
 
-Small tweaks to add to your `obsidian.css` file
+Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
-  - [Andy Matuschak mode](#andy-matuschak-mode)
-  - [Collapsing sidebar](#collapsing-sidebar)
-  - [Bullet point relationship lines](#bullet-point-relationship-lines)
-  - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-  - [Auto-fading UI](#auto-fading-ui)
-  - [Hyphenation and Justification](#hyphenation-and-justification)
-  - [Enlarge Image on Hover](#enlarge-image-on-hover)
-  - [Nicer Check Boxes](#nicer-check-boxes)
-  - [Stylish Block Quotes](#stylish-block-quotes)
-  - [Bigger Link Popup Preview](#bigger-link-popup-preview)
-  - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-  - [Tag Pills](#tag-pills)
-  - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
-  - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
-  - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
-  - [Bigger popup windows](#Bigger-popup-windows)
-  - [Image cards](#Image-cards)
+- [Andy Matuschak mode](#andy-matuschak-mode)
+- [Collapsing sidebar](#collapsing-sidebar)
+- [Bullet point relationship lines](#bullet-point-relationship-lines)
+- [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
+- [Auto-fading UI](#auto-fading-ui)
+- [Hyphenation and Justification](#hyphenation-and-justification)
+- [Enlarge Image on Hover](#enlarge-image-on-hover)
+- [Nicer Check Boxes](#nicer-check-boxes)
+- [Stylish Block Quotes](#stylish-block-quotes)
+- [Bigger Link Popup Preview](#bigger-link-popup-preview)
+- [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
+- [Tag Pills](#tag-pills)
+- [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
+- [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
+- [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
+- [Bigger popup windows](#Bigger-popup-windows)
+- [Image cards](#Image-cards)
 
+Not enough? There are many other places related to snippets:
+- [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css/l/top)
+- [CSS snippets in Obsidian Help](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets)
+- [Other GitHub repositories](https://github.com/search?q=obsidian-snippets)
 ### Andy Matuschak mode
 
 <details>
