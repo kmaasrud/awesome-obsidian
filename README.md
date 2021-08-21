@@ -52,7 +52,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
 
 
-# CSS Snippets
+# 🔗 CSS Snippets
 
 Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
@@ -628,22 +628,11 @@ Credits to Echo
 
 ---
 
-### Image cards
+## [Image Cards](code/css-snippets/image-cards.css) by [@TClark1011](https://github.com/TClark1011)
+Give your images a shadow and rounded corners.
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
+![](media/css-snippets/image-cards-1.png)
 
-img {
-border-radius: 4px;
-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-background-color: var(--background-secondary); /* Background color so PNGs with transparent backgrounds don't look weird */
-}
-
-</code></pre>
-
-</details>
-
-Credits to [TClark1011](https://github.com/TClark1011)
+[📁 image-cards.css](code/css-snippets/image-cards.css)
 
 ---
