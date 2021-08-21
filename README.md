@@ -104,6 +104,8 @@ Fades note's header controls and status bar items when not hovered.
 ## [Smaller Scrollbar](code\css-snippets\smaller-scrollbar.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
+![](media/css-snippets/smaller-scrollbar-1.png)
+
 [📁 smaller-scrollbar.css](code\css-snippets\smaller-scrollbar.css)
 
 
