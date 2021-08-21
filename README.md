@@ -95,7 +95,9 @@ Relationship lines that shows hierarchy, like in code editors.
 ## [Auto-fading UI](code/css-snippets/autofading-ui.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
+Fades note's header controls and status bar items when not hovered.
 
+![](media/css-snippets/autofading-ui-1.gif)
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
