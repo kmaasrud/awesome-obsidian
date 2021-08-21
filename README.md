@@ -86,6 +86,9 @@ by [@Kmaasrud](https://github.com/kmaasrud)
 ## [Bullet Point Relationship Lines](code/css-snippets/bullet-point-relationship-lines.css)
 by [@deathau](https://github.com/deathau)
 
+Relationship lines that shows hierarchy, like in code editors.
+
+![](media/css-snippets/bullet-point-relationship-lines-1.png)
 [📁 bullet-point-relationship-lines.css](code/css-snippets/bullet-point-relationship-lines.css)
 
 ---
