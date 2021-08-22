@@ -1,0 +1,12 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://github.com/kmaasrud */
+/* source: https://github.com/kmaasrud/awesome-obsidian */
+
+.side-dock-ribbon.mod-left.is-collapsed:not(:hover),
+.side-dock-ribbon.mod-right.is-collapsed:not(:hover) {
+  width: 15px !important;
+  opacity: 0;
+}
+.side-dock-ribbon {
+  transition-property: width, opacity;
+}

@@ -22,7 +22,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
-- [CSS Tweaks](#css-tweaks)
+- [CSS Snippets](#css-snippets)
 
 # Handy tools
 
@@ -62,594 +62,172 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
 
 
-# CSS Tweaks
+# 🔗 CSS Snippets
 
-Small tweaks to add to your `obsidian.css` file
+Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
-  - [Andy Matuschak mode](#andy-matuschak-mode)
-  - [Collapsing sidebar](#collapsing-sidebar)
-  - [Bullet point relationship lines](#bullet-point-relationship-lines)
-  - [Task List Preview relationship line Correction](#task-list-preview-relationship-line-correction)
-  - [Auto-fading UI](#auto-fading-ui)
-  - [Hyphenation and Justification](#hyphenation-and-justification)
-  - [Enlarge Image on Hover](#enlarge-image-on-hover)
-  - [Nicer Check Boxes](#nicer-check-boxes)
-  - [Stylish Block Quotes](#stylish-block-quotes)
-  - [Bigger Link Popup Preview](#bigger-link-popup-preview)
-  - [Custom icons differing files and folders](#custom-icons-differing-files-and-folders)
-  - [Tag Pills](#tag-pills)
-  - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
-  - [Make subtler folding gutter arrows](#Make-subtler-folding-gutter-arrows)
-  - [Better bullet points in edit mode](#better-bullet-points-in-edit-mode)
-  - [Bigger popup windows](#Bigger-popup-windows)
-  - [Image cards](#Image-cards)
+- [Collapsing Sidebar](#collapsing-sidebar)
+- [Bullet Point Relationship Lines](#bullet-point-relationship-lines)
+- [Task List Preview Relationship Line Correction](#task-list-preview-relationship-line-correction)
+- [Auto-fading UI](#auto-fading-ui)
+- [Subtler Folding Gutter Arrows](#subtler-folding-gutter-arrows)
+- [Hyphenation and Justification](#hyphenation-and-justification)
+- [Enlarge Image on Hover](#enlarge-image-on-hover)
+- [Nicer Checkboxes](#nicer-checkboxes)
+- [Stylish Block Quotes](#stylish-block-quotes)
+- [Bigger Link Popup Preview](#bigger-link-popup-preview)
+- [Custom Icons Differing Files and Folders](#custom-icons-differing-files-and-folders)
+- [Tag Pills](#tag-pills)
+- [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
+- [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
+- [Image Cards](#image-cards)
 
-### Andy Matuschak mode
+Not enough? There are many other places related to snippets:
+- [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css/l/top)
+- [CSS snippets in Obsidian Help](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets)
+- [Other GitHub repositories](https://github.com/search?q=obsidian-snippets)
+## [Collapsing Sidebar](code/css-snippets/collapsing-sidebar.css)
+by [@Kmaasrud](https://github.com/kmaasrud)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-/* everything under .mod-root now. Don't want Andy messing with sidebars */
-/* also, Andy only makes sense for vertical splits, at the root level, right? */
-.mod-root.workspace-split.mod-vertical {
-  overflow-x:auto;
-  --header-width: 36px; /* <- 36px is the header height in the default theme */
-}
-.mod-root.workspace-split.mod-vertical > div {
-  min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
-  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
-  position:sticky;
-  left:0;
-}
+[📁 collapsing-sidebar.css](code/css-snippets/collapsing-sidebar.css)
 
-/* shift sticky position, so titles will stack up to the left */
-/* This will currently stack to a maximum of 10 before resetting */
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) * 0); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) * 1); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) * 2); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) * 3); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) * 4); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) * 5); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) * 6); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) * 7); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) * 8); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) * 9); }
+---
+## [Bullet Point Relationship Lines](code/css-snippets/bullet-point-relationship-lines.css)
+by [@deathau](https://github.com/deathau)
 
-/* now it's time for the fancy vertical titles */
+Relationship lines that shows hierarchy, like in code editors.
 
-/* first we'll add a bit of gap for the title to sit inside of */
-.workspace-leaf-content {
-  padding-left: var(--header-width);
-  position: relative;
-}
+![](media/css-snippets/bullet-point-relationship-lines-1.png)
+[📁 bullet-point-relationship-lines.css](code/css-snippets/bullet-point-relationship-lines.css)
 
-/* this is where the magic happens */
-.view-header {
-  writing-mode: vertical-lr;
-  border-right: 1px solid var(--background-secondary-alt);
-  border-left: 2px solid var(--background-secondary-alt);
-  border-top: none;
-  border-bottom: none;
-  height: auto;
-  width: var(--header-width);
-  position: absolute;
-  left:0;
-  top:0;
-  bottom:0;
-}
+---
+## [Auto-fading UI](code/css-snippets/autofading-ui.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
-/* active titles have different border colours */
-.workspace-leaf.mod-active .view-header {
-  border-right: 2px solid var(--interactive-accent);
-  border-bottom: none;
-}
+Fades note's header controls and status bar items when not hovered.
 
-/* unset the title container height and swap padding */
-.view-header-title-container {
-  height: unset;
-  padding-left: unset;
-  padding-top: 5px;
-}
+![](media/css-snippets/autofading-ui-1.gif)
+[📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
-/* fix the long-title-obscuring shadows */
-.view-header-title-container:after {
-  width: 100%;
-  height: 30px;
-  top:unset;
-  bottom: 0;
-  background: linear-gradient(to bottom, transparent, var(--background-secondary));
-}
-.workspace-leaf.mod-active .view-header-title-container:after {
-  background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
-}
+---
+## [Smaller Scrollbar](code\css-snippets\smaller-scrollbar.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
-/* swap the padding/margin around for the header and actions icons */
-.view-header-icon, .view-actions {
-  padding: 10px 5px;
-}
-.view-action {
-  margin: 8px 0;
-}
+![](media/css-snippets/smaller-scrollbar-1.png)
 
-/* get rid of the gap left by the now-missing horizontal title */
-.view-content {
-  height: 100%;
-}
+[📁 smaller-scrollbar.css](code\css-snippets\smaller-scrollbar.css)
 
-/* make the fake drop target overlay have a background so you can see it. */
-/* TODO: figure out how the fake target overlay works so we can put the title back, too */
-.workspace-fake-target-overlay {
-  background-color: var(--background-primary);
-}
-</code></pre>
-</details>
-
-Credits to [deathau](https://github.com/deathau)
 
 ---
 
-### Collapsing sidebar
+## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css)
+by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.side-dock-ribbon.mod-left.is-collapsed:not(:hover), .side-dock-ribbon.mod-right.is-collapsed:not(:hover) {
-  width: 15px !important;
-  opacity: 0;
-}
-.side-dock-ribbon {
-  transition-property: width, opacity;
-}
-</code></pre>
-</details>
+Increases the size of the folding gutter arrows and decreases their opacity until hovered.
 
-Credits to [kmaasrud](https://github.com/kmaasrud)
+![](media/css-snippets/subtler-folding-gutter-arrows-1.png)
+
+[📁 subtler-folding-gutter-arrows.css](code/css-snippets/subtler-folding-gutter-arrows.css)
 
 ---
 
-### Bullet point relationship lines
+## [Hyphenation and Justification](code/css-snippets/hyphenation-and-justification.css)
+by [@Boyd](https://forum.obsidian.md/u/boyd/summary)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
-.cm-hmd-list-indent .cm-tab::before, ul ul::before {
- content:'';
- border-left: 1px solid rgba(0, 122, 255, 0.25);
- position: absolute;
-}
-.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px;
-}
-ul ul::before { left: -11px; top: 0; bottom: 0;
-}
-</code></pre>
-</details>
+Justifies the whole text and breaks words into two lines if needed.
 
-Credits to [deathau](https://github.com/deathau)
+![](media/css-snippets/hyphenation-and-justification-1.png)
+
+[📁 hyphenation-and-justification.css](code/css-snippets/hyphenation-and-justification.css)
 
 ---
 
-### Task List Preview relationship line Correction
+## [Enlarge Image on Hover](code/css-snippets/enlarge-image-on-hover.css)
+by [@den](https://forum.obsidian.md/u/den/summary)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.contains-task-list::before {
-  left: 10px ;
-}
-</code></pre>
-</details>
+![](media/css-snippets/enlarge-image-on-hover-1.gif)
 
-Credits to [d00b](https://forum.obsidian.md/u/d00b/summary)
+[📁 enlarge-image-on-hover.css](code/css-snippets/enlarge-image-on-hover.css)
 
 ---
 
-### Auto-fading UI
+## [Nicer Checkboxes](code\css-snippets\nicer-checkboxes.css)
+by [@kepano](https://forum.obsidian.md/u/kepano/summary) & [@rsdimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
-<details>
-<summary>Auto-fading note controls</summary>
-<pre lang="css"><code>
-.view-header:not(:hover) .view-actions {
-  opacity: 0.1;
-  transition: opacity .25s ease-in-out;
-}
-</code></pre>
-</details>
+To toggle a checkbox, place your cursor right after it, press left arrow once and then press backspace.
 
-<details>
-<summary>Auto-fading status bar</summary>
-<pre lang="css"><code>
-.status-bar:not(:hover) .status-bar-item {
-  opacity: 0.25;
-  transition: opacity .25s ease-in-out;
-}
-</code></pre>
-</details>
+![](media/css-snippets/nicer-checkboxes-1.gif)
 
-<details>
-<summary>Subtler folding gutter arrows</summary>
-<pre lang="css"><code>
-.CodeMirror-foldgutter-folded:after,
-.CodeMirror-foldgutter-open:after {
-  opacity: 0.5;
-  font-size: 60%;
-}
-
-.CodeMirror-foldgutter-folded:hover:after,
-.CodeMirror-foldgutter-open:hover:after {
-  opacity: 1;
-}
-
-.CodeMirror-foldgutter-folded:after {
-  content: "\25BA";
-}
-
-.CodeMirror-foldgutter-open:after {
-  content: "\25BC";
-}
-</code></pre>
-</details>
-
-Credits to Rumen Dimitrov
+[📁 nicer-checkboxes.css](code\css-snippets\nicer-checkboxes.css)
 
 ---
 
-### Hyphenation and Justification
+## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css)
+by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/25 -->
+![](media/css-snippets/stylish-blockquotes-1.png)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.cm-s-obsidian,
-.markdown-preview-view {
-  text-align: justify;
-  hyphens: auto;
-}
-</code></pre>
-</details>
-
-
-Credits to Boyd
+[📁 stylish-blockquotes.css](code\css-snippets\stylish-blockquotes.css)
 
 ---
 
-### Enlarge Image on Hover
+## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css)
+by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/konhi)
 
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/29 -->
+![](media/css-snippets/bigger-link-popup-preview-1.png)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.markdown-preview-view img {
-  display: block;
-  margin-top: 20pt;
-  margin-bottom: 20pt;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; /* experiment with values */
-  transition: transform 0.25s ease;
-}
-
-.markdown-preview-view img:hover {
-  -webkit-transform: scale(1.8); /* experiment with values */
-  transform: scale(2);
-}
-</code></pre>
-</details>
-
-
-Credits to Den
+[📁 bigger-link-popup-preview.css](code\css-snippets\bigger-link-popup-preview.css)
 
 ---
 
-### Nicer Check Boxes
+## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css)
+by [@deathau](https://github.com/deathau)
 
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/34 -->
+Adds custom icons for files and folders. Please read the comments in the `.css` file.
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-/* Round checkbxes in preview and editor */
-input[type=checkbox], .cm-formatting-task {
-    -webkit-appearance: none;
-    appearance: none;
-    border-radius: 50%;
-    border: 1px solid var(--text-faint);
-    padding: 0;
-    vertical-align: middle;
-}
+![](media/css-snippets/custom-icons-differing-files-and-folders-1.png)
 
-.cm-s-obsidian span.cm-formatting-task {
-    color: transparent;
-    width: 1.25em !important;
-    height: 1.25em;
-    display: inline-block;
-}
+[📁 custom-icons-differing-files-and-folders.css](code\css-snippets\custom-icons-differing-files-and-folders.css)
 
-input[type=checkbox]:focus{
-  outline:0;
-}
-input[type=checkbox]:checked, .cm-formatting-task.cm-property {
-    background-color: var(--text-accent-hover);
-    border: 1px solid var(--text-accent-hover);
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
-}
-</code></pre>
-</details>
+[📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
 
 
-Credits to Kepano
 
 ---
 
-### Stylish Block Quotes
+## [Tag Pills](code\css-snippets\tag-pills.css)
+by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39 -->
+![](media/css-snippets/tag-pills-1.png)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-blockquote:before {
-  font: 14px/20px italic Times, serif;
-  content: "“";
-  font-size: 3em;
-  line-height: 0.1em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
-/* Remove blockquote left margin */
-blockquote {
-  margin-inline-start: 0;
-}
-</code></pre>
-</details>
-
-Credits to Théry Fouchter
+[📁 tag-pills.css](code\css-snippets\tag-pills.css)
 
 ---
 
-### Bigger Link Popup Preview
+## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsidian.md/u/wonton/summary) & [@konhi](https://github.com/konhi)
 
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/82 -->
+![](media/css-snippets/outliner-for-the-outline-and-file-explorer-1.png)
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-/*============ bigger link popup preview ================*/
-.popover.hover-popover {
-    transform: scale(0.8); /* makes the content smaller */
-    max-height: 800px;    /* was 300 */
-    min-height: 100px;
-    width: 500px;     /* was 400 */
-}
-</code></pre>
-</details>
+[📁 outliner-for-the-outline-and-file-explorer.css](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
 
+---
+## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css)
+by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/konhi)
 
-Credits to [Cannibalox](https://github.com/cannibalox)
+![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
+
+[📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
 
 ---
 
-### Custom icons differing files and folders
+## [Image Cards](code/css-snippets/image-cards.css)
+by [@TClark1011](https://github.com/TClark1011)
 
-<!-- https://discordapp.com/channels/686053708261228577/702656734631821413/755293685046050896 -->
+Give your images a shadow and rounded corners.
 
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-/* Emoji */
-/*.nav-file-title-content::before { content: '🗒 '; }
-.nav-folder-title-content::before { content: '📂 '; }*/
+![](media/css-snippets/image-cards-1.png)
 
-/* Flat font */
-/* Requires: https://icomoon.io/#icons-icomoon/liga-font */
-.nav-folder-children .nav-file-title-content:first-child::before {
-  content: "\e924  ";
-  font-family: "IcoMoon-Free";
-}
-.nav-folder-children .nav-folder-title-content::before {
-  content: "\e930  ";
-  font-family: "IcoMoon-Free";
-}
-</code></pre>
-</details>
-
-
-Credits to [deathau](https://github.com/deathau)
-
----
-
-### Tag Pills
-
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/72 -->
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-/* ====== Tag Pills ======== */
-.tag:not(.token) {
-	background-color: var(--text-accent);
-	border: none;
-	color: white;
-	font-size: 11px;
-	padding: 1px 8px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 0px 0px;
-	cursor: pointer;
-	border-radius: 14px;
-}
-.tag:not(.token):hover {
-	color: white;
-	background-color: var(--text-accent-hover);
-}
-.tag[href^="#obsidian"] {
-	background-color: #4d3ca6;
-}
-.tag[href^="#important"] {
-	background-color: red;
-}
-.tag[href^="#complete"] {
-	background-color: green;
-}
-.tag[href^="#inprogress"] {
-	background-color: orange;
-}
-</code></pre>
-</details>
-
-
-Credits to uzerper
-
----
-
-### Outliner For The Outline and File Explorer
-
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/112 -->
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.outline .collapsible-item-children {
-  margin-left: 20px;
-  border-left: 1px solid var(--faded-aqua);
-  border-radius: 4px;
-  transition:all 0.5s ease-in-out;
-}
-.outline .collapsible-item-children:hover {
-  border-left-color: var(--faded-aqua);
-}
-.nav-folder-children .nav-folder-children {
-  margin-left: 20px;
-  padding-left: 0;
-  border-left: 1px solid var(--faded-aqua);
-  border-radius: 4px;
-  transition:all 0.5s ease-in-out;
-}
-.nav-folder-children .nav-folder-children:hover {
-  border-left-color: var(--faded-aqua);
-}
-</code></pre>
-</details>
-
-Credits to Shamama and Wonton
-
----
-
-### Make subtler folding gutter arrows
-
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/10 -->
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-.CodeMirror-foldgutter-folded:after,
-.CodeMirror-foldgutter-open:after {
-  opacity: 0.5;
-  font-size: 60%;
-}
-
-.CodeMirror-foldgutter-folded:hover:after,
-.CodeMirror-foldgutter-open:hover:after {
-  opacity: 1;
-}
-
-.CodeMirror-foldgutter-folded:after {
-  content: "\25BA";
-}
-
-.CodeMirror-foldgutter-open:after {
-  content: "\25BC";
-}
-</code></pre>
-</details>
-
-Credits to rsdimitrov
-
----
-
-### Better bullet points in edit mode
-
-<!-- https://forum.obsidian.md/t/clutter-free-edit-mode/6791/30 -->
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul {
-  color: transparent;
-  position: relative;
-}
-
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list-ul:after {
-  content: "•";
-  position: absolute;
-  top: -6px;
-  left: 4px;
-  color: var(--bright-aqua);
-  font-family: sans-serif;
-  font-size: 20px;
-}
-</code></pre>
-</details>
-
-Credits to Piotr
-
----
-
-### Bigger popup windows
-
-<!-- https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/175 -->
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-
-.popover.hover-popover {
-  transform: scale(0.8); /* makes the content smaller */
-  max-height: 800px;
-  min-height: 50px;
-  width: 500px;
-  overflow: overlay; /* new added */
-}
-
-.popover.hover-popover .markdown-embed  {
-  height: 100%;
-}
-
-.popover.hover-popover.is-loaded .markdown-embed .markdown-embed-content .markdown-preview-view{
-padding: 10px 10px 10px 16px; /*16px  two pop magin */
-}
-</code></pre>
-</details>
-
-Credits to Echo
-
----
-
-### Image cards
-
-<details>
-<summary>CSS</summary>
-<pre lang="css"><code>
-
-img {
-border-radius: 4px;
-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-background-color: var(--background-secondary); /* Background color so PNGs with transparent backgrounds don't look weird */
-}
-
-</code></pre>
-
-</details>
-
-Credits to [TClark1011](https://github.com/TClark1011)
+[📁 image-cards.css](code/css-snippets/image-cards.css)
 
 ---

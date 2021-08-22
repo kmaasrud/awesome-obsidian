@@ -1,0 +1,19 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/Thery/summary */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39 */
+
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* Remove blockquote left margin */
+blockquote {
+  margin-inline-start: 0;
+}
