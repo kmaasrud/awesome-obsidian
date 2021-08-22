@@ -204,7 +204,9 @@ by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsi
 
 ---
 ## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css)
-by [@Piotr](https://forum.obsidian.md/u/Piotr)
+by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/konhi)
+
+![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
 
 [📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
 
