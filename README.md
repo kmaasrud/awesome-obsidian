@@ -174,7 +174,13 @@ by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/ko
 ## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css)
 by [@deathau](https://github.com/deathau)
 
+Adds custom icons for files and folders. Please read the comments in the `.css` file.
+
+![](media/css-snippets/custom-icons-differing-files-and-folders-1.png)
+
 [📁 custom-icons-differing-files-and-folders.css](code\css-snippets\custom-icons-differing-files-and-folders.css)
+
+[📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
 
 
 
