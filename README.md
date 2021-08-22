@@ -196,7 +196,9 @@ by [@uzerper](https://forum.obsidian.md/u/uzerper)
 ---
 
 ## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
-by [@Shamama](https://forum.obsidian.md/u/Shamama) & [@wonton](https://forum.obsidian.md/u/wonton/summary)
+by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsidian.md/u/wonton/summary) & [@konhi](https://github.com/konhi)
+
+![](media/css-snippets/outliner-for-the-outline-and-file-explorer-1.png)
 
 [📁 outliner-for-the-outline-and-file-explorer.css](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
 
