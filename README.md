@@ -63,7 +63,7 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Subtler Folding Gutter Arrows](#subtler-folding-gutter-arrows)
 - [Hyphenation and Justification](#hyphenation-and-justification)
 - [Enlarge Image on Hover](#enlarge-image-on-hover)
-- [Nicer Check Boxes](#nicer-check-boxes)
+- [Nicer Checkboxes](#nicer-checkboxes)
 - [Stylish Block Quotes](#stylish-block-quotes)
 - [Bigger Link Popup Preview](#bigger-link-popup-preview)
 - [Custom Icons Differing Files and Folders](#custom-icons-differing-files-and-folders)
@@ -142,8 +142,12 @@ by [@den](https://forum.obsidian.md/u/den/summary)
 
 ---
 
-## [Nicer Check Boxes](code\css-snippets\nicer-checkboxes.css)
-by [@kepano](https://forum.obsidian.md/u/kepano/summary)
+## [Nicer Checkboxes](code\css-snippets\nicer-checkboxes.css)
+by [@kepano](https://forum.obsidian.md/u/kepano/summary) & [@rsdimitrov](https://forum.obsidian.md/u/rsdimitrov)
+
+To toggle a checkbox, place your cursor right after it, press left arrow once and then press backspace.
+
+![](media/css-snippets/nicer-checkboxes-1.gif)
 
 [📁 nicer-checkboxes.css](code\css-snippets\nicer-checkboxes.css)
 
