@@ -189,6 +189,8 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 ## [Tag Pills](code\css-snippets\tag-pills.css)
 by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
+![](media/css-snippets/tag-pills-1.png)
+
 [📁 tag-pills.css](code\css-snippets\tag-pills.css)
 
 ---
