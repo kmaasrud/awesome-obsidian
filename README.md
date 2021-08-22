@@ -70,7 +70,6 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Tag Pills](#tag-pills)
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
-- [Bigger Popup Windows](#bigger-popup-windows)
 - [Image Cards](#image-cards)
 
 Not enough? There are many other places related to snippets:
@@ -209,13 +208,6 @@ by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/kon
 ![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
 
 [📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
-
----
-
-## [Bigger Popup Windows](code\css-snippets\bigger-popup-windows.css)
-by [@Echo](https://forum.obsidian.md/u/echo)
-
-[📁 bigger-popup-windows.css.css](code\css-snippets\bigger-popup-windows.css)
 
 ---
 
