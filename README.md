@@ -23,6 +23,14 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
 - [CSS Tweaks](#css-tweaks)
+- [About Obsidian](#about-obsidian)
+
+# What is Obsidian?
+- [Official Obsidian Website](https://obsidian.md)
+- [Reviews, Pros and Cons of Obsidian at Slant.co](https://www.slant.co/options/37045/~obsidian-md-review)
+- [Obsidian at Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
+- [Obsidian Beginner Guide at SitePoint](https://www.sitepoint.com/obsidian-beginner-guide/)
+- [Obsidian Official Roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap)
 
 # Handy tools
 
