@@ -156,6 +156,7 @@ To toggle a checkbox, place your cursor right after it, press left arrow once an
 ## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css)
 by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
+![](media/css-snippets/stylish-blockquotes-1.png)
 
 [📁 stylish-blockquotes.css](code\css-snippets\stylish-blockquotes.css)
 
