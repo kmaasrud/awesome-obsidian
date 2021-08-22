@@ -20,10 +20,10 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 # Table of contents
 
+- [What is Obsidian?](#what-is-obsidian)
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
 - [CSS Tweaks](#css-tweaks)
-- [About Obsidian](#about-obsidian)
 
 # What is Obsidian?
 - [Official Obsidian Website](https://obsidian.md)
