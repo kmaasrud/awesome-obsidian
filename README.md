@@ -136,6 +136,7 @@ Justifies the whole text and breaks words into two lines if needed.
 ## [Enlarge Image on Hover](code/css-snippets/enlarge-image-on-hover.css)
 by [@den](https://forum.obsidian.md/u/den/summary)
 
+![](media/css-snippets/enlarge-image-on-hover-1.gif)
 
 [📁 enlarge-image-on-hover.css](code/css-snippets/enlarge-image-on-hover.css)
 
