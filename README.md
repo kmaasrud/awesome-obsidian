@@ -125,6 +125,10 @@ Increases the size of the folding gutter arrows and decreases their opacity unti
 ## [Hyphenation and Justification](code/css-snippets/hyphenation-and-justification.css)
 by [@Boyd](https://forum.obsidian.md/u/boyd/summary)
 
+Justifies the whole text and breaks words into two lines if needed.
+
+![](media/css-snippets/hyphenation-and-justification-1.png)
+
 [📁 hyphenation-and-justification.css](code/css-snippets/hyphenation-and-justification.css)
 
 ---
