@@ -163,7 +163,9 @@ by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 ---
 
 ## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css)
-by [@Cannibalox](https://github.com/cannibalox)
+by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/konhi)
+
+![](media/css-snippets/bigger-link-popup-preview-1.png)
 
 [📁 bigger-link-popup-preview.css](code\css-snippets\bigger-link-popup-preview.css)
 
