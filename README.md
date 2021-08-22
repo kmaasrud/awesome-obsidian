@@ -114,6 +114,10 @@ by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 ## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
+Increases the size of the folding gutter arrows and decreases their opacity until hovered.
+
+![](media/css-snippets/subtler-folding-gutter-arrows-1.png)
+
 [📁 subtler-folding-gutter-arrows.css](code/css-snippets/subtler-folding-gutter-arrows.css)
 
 ---
