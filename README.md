@@ -119,12 +119,12 @@ Fades note's header controls and status bar items when not hovered.
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
-## [Smaller Scrollbar](code\css-snippets\smaller-scrollbar.css)
+## [Smaller Scrollbar](code/css-snippets/smaller-scrollbar.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 ![](media/css-snippets/smaller-scrollbar-1.png)
 
-[📁 smaller-scrollbar.css](code\css-snippets\smaller-scrollbar.css)
+[📁 smaller-scrollbar.css](code/css-snippets/smaller-scrollbar.css)
 
 
 ---
@@ -160,43 +160,43 @@ by [@den](https://forum.obsidian.md/u/den/summary)
 
 ---
 
-## [Nicer Checkboxes](code\css-snippets\nicer-checkboxes.css)
+## [Nicer Checkboxes](code/css-snippets/nicer-checkboxes.css)
 by [@kepano](https://forum.obsidian.md/u/kepano/summary) & [@rsdimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 To toggle a checkbox, place your cursor right after it, press left arrow once and then press backspace.
 
 ![](media/css-snippets/nicer-checkboxes-1.gif)
 
-[📁 nicer-checkboxes.css](code\css-snippets\nicer-checkboxes.css)
+[📁 nicer-checkboxes.css](code/css-snippets/nicer-checkboxes.css)
 
 ---
 
-## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css)
+## [Stylish Block Quotes](code/css-snippets/stylish-blockquotes.css)
 by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
 ![](media/css-snippets/stylish-blockquotes-1.png)
 
-[📁 stylish-blockquotes.css](code\css-snippets\stylish-blockquotes.css)
+[📁 stylish-blockquotes.css](code/css-snippets/stylish-blockquotes.css)
 
 ---
 
-## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css)
+## [Bigger Link Popup Preview](code/css-snippets/bigger-link-popup-preview.css)
 by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/bigger-link-popup-preview-1.png)
 
-[📁 bigger-link-popup-preview.css](code\css-snippets\bigger-link-popup-preview.css)
+[📁 bigger-link-popup-preview.css](code/css-snippets/bigger-link-popup-preview.css)
 
 ---
 
-## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css)
+## [Custom Icons Differing Files and Folders](code/css-snippets/custom-icons-differing-files-and-folders.css)
 by [@deathau](https://github.com/deathau)
 
 Adds custom icons for files and folders. Please read the comments in the `.css` file.
 
 ![](media/css-snippets/custom-icons-differing-files-and-folders-1.png)
 
-[📁 custom-icons-differing-files-and-folders.css](code\css-snippets\custom-icons-differing-files-and-folders.css)
+[📁 custom-icons-differing-files-and-folders.css](code/css-snippets/custom-icons-differing-files-and-folders.css)
 
 [📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
 
@@ -204,29 +204,29 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 
 ---
 
-## [Tag Pills](code\css-snippets\tag-pills.css)
+## [Tag Pills](code/css-snippets/tag-pills.css)
 by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
 ![](media/css-snippets/tag-pills-1.png)
 
-[📁 tag-pills.css](code\css-snippets\tag-pills.css)
+[📁 tag-pills.css](code/css-snippets/tag-pills.css)
 
 ---
 
-## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+## [Outliner For The Outline and File Explorer](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
 by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsidian.md/u/wonton/summary) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/outliner-for-the-outline-and-file-explorer-1.png)
 
-[📁 outliner-for-the-outline-and-file-explorer.css](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+[📁 outliner-for-the-outline-and-file-explorer.css](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
 
 ---
-## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css)
+## [Better Bullet Points in Edit Mode](code/css-snippets/better-bullet-points-in-edit-mode.css)
 by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
 
-[📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
+[📁 better-bullet-points-in-edit-mode.css](code/css-snippets/better-bullet-points-in-edit-mode.css)
 
 ---
 
