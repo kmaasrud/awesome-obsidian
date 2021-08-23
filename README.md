@@ -70,7 +70,7 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 [Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
 
 
-# 🔗 CSS Snippets
+# CSS Snippets
 
 Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
