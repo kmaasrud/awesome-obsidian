@@ -24,6 +24,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Handy tools](#handy-tools)
 - [Themes](#themes)
 - [CSS Snippets](#css-snippets)
+- [For Developers](#for-developers)
 
 # What is Obsidian?
 - [Official Obsidian Website](https://obsidian.md)
@@ -118,12 +119,12 @@ Fades note's header controls and status bar items when not hovered.
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
-## [Smaller Scrollbar](code\css-snippets\smaller-scrollbar.css)
+## [Smaller Scrollbar](code/css-snippets/smaller-scrollbar.css)
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 ![](media/css-snippets/smaller-scrollbar-1.png)
 
-[📁 smaller-scrollbar.css](code\css-snippets\smaller-scrollbar.css)
+[📁 smaller-scrollbar.css](code/css-snippets/smaller-scrollbar.css)
 
 
 ---
@@ -159,43 +160,43 @@ by [@den](https://forum.obsidian.md/u/den/summary)
 
 ---
 
-## [Nicer Checkboxes](code\css-snippets\nicer-checkboxes.css)
+## [Nicer Checkboxes](code/css-snippets/nicer-checkboxes.css)
 by [@kepano](https://forum.obsidian.md/u/kepano/summary) & [@rsdimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 To toggle a checkbox, place your cursor right after it, press left arrow once and then press backspace.
 
 ![](media/css-snippets/nicer-checkboxes-1.gif)
 
-[📁 nicer-checkboxes.css](code\css-snippets\nicer-checkboxes.css)
+[📁 nicer-checkboxes.css](code/css-snippets/nicer-checkboxes.css)
 
 ---
 
-## [Stylish Block Quotes](code\css-snippets\stylish-blockquotes.css)
+## [Stylish Block Quotes](code/css-snippets/stylish-blockquotes.css)
 by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
 ![](media/css-snippets/stylish-blockquotes-1.png)
 
-[📁 stylish-blockquotes.css](code\css-snippets\stylish-blockquotes.css)
+[📁 stylish-blockquotes.css](code/css-snippets/stylish-blockquotes.css)
 
 ---
 
-## [Bigger Link Popup Preview](code\css-snippets\bigger-link-popup-preview.css)
+## [Bigger Link Popup Preview](code/css-snippets/bigger-link-popup-preview.css)
 by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/bigger-link-popup-preview-1.png)
 
-[📁 bigger-link-popup-preview.css](code\css-snippets\bigger-link-popup-preview.css)
+[📁 bigger-link-popup-preview.css](code/css-snippets/bigger-link-popup-preview.css)
 
 ---
 
-## [Custom Icons Differing Files and Folders](code\css-snippets\custom-icons-differing-files-and-folders.css)
+## [Custom Icons Differing Files and Folders](code/css-snippets/custom-icons-differing-files-and-folders.css)
 by [@deathau](https://github.com/deathau)
 
 Adds custom icons for files and folders. Please read the comments in the `.css` file.
 
 ![](media/css-snippets/custom-icons-differing-files-and-folders-1.png)
 
-[📁 custom-icons-differing-files-and-folders.css](code\css-snippets\custom-icons-differing-files-and-folders.css)
+[📁 custom-icons-differing-files-and-folders.css](code/css-snippets/custom-icons-differing-files-and-folders.css)
 
 [📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
 
@@ -203,29 +204,29 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 
 ---
 
-## [Tag Pills](code\css-snippets\tag-pills.css)
+## [Tag Pills](code/css-snippets/tag-pills.css)
 by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
 ![](media/css-snippets/tag-pills-1.png)
 
-[📁 tag-pills.css](code\css-snippets\tag-pills.css)
+[📁 tag-pills.css](code/css-snippets/tag-pills.css)
 
 ---
 
-## [Outliner For The Outline and File Explorer](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+## [Outliner For The Outline and File Explorer](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
 by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsidian.md/u/wonton/summary) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/outliner-for-the-outline-and-file-explorer-1.png)
 
-[📁 outliner-for-the-outline-and-file-explorer.css](code\css-snippets\outliner-for-the-outline-and-file-explorer.css)
+[📁 outliner-for-the-outline-and-file-explorer.css](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
 
 ---
-## [Better Bullet Points in Edit Mode](code\css-snippets\better-bullet-points-in-edit-mode.css)
+## [Better Bullet Points in Edit Mode](code/css-snippets/better-bullet-points-in-edit-mode.css)
 by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
 
-[📁 better-bullet-points-in-edit-mode.css](code\css-snippets\better-bullet-points-in-edit-mode.css)
+[📁 better-bullet-points-in-edit-mode.css](code/css-snippets/better-bullet-points-in-edit-mode.css)
 
 ---
 
@@ -239,3 +240,37 @@ Give your images a shadow and rounded corners.
 [📁 image-cards.css](code/css-snippets/image-cards.css)
 
 ---
+
+# For Developers
+
+## Creating Themes
+- [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css)
+  - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
+  - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
+  - [CSS Themes Showcase](https://forum.obsidian.md/t/meta-post-css-themes-showcase/76)
+- [🎬 Create a Custom Theme in Obsidian](https://www.youtube.com/watch?v=lyaEnxgow4E)
+- [ReggieNotes' about Obsidian CSS Themes](https://publish.obsidian.md/reggienotes/Quickstart+CSS+Guide/010+Obsidian+CSS+Themes)
+- [obsidian-style-settings:](https://github.com/mgmeyers/obsidian-style-settings)  allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane.
+
+## Creating Plugins
+- [Developers & API at Obsidian Forum](https://forum.obsidian.md/c/developers-api/14)
+  - [How to get started with developing a custom plugin](https://forum.obsidian.md/t/how-to-get-started-with-developing-a-custom-plugin/8157)
+  - [Using GitHub actions to release plugins](https://forum.obsidian.md/t/using-github-actions-to-release-plugins/7877)
+  - [Hot Reload](https://forum.obsidian.md/t/plugin-release-for-developers-hot-reload-the-plugin-s-youre-developing/12185)
+  - [Plugins mini FAQ](https://forum.obsidian.md/t/plugins-mini-faq/7737)
+  - [List of available icons](https://forum.obsidian.md/t/list-of-available-icons-for-component-seticon/16332/4)
+  - [Alpha Plugin List](https://forum.obsidian.md/t/meta-alpha-plugin-list-0-9-7/7736)
+- [Obsidian at GitHub](https://github.com/obsidianmd)
+  - [Obsidian API](https://github.com/obsidianmd/obsidian-api)
+  - [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+- [obsidian-tools:](https://github.com/obsidian-tools/obsidian-tools) an unofficial collection of tools that helps devs build plugins for obsidian.
+- [obsidian-rust-plugin:](https://github.com/trashhalo/obsidian-rust-plugin) boilerplate needed to write obsidian plugins in rust!
+- [obsidian-api-docs:](https://github.com/HEmile/obsidian-api-docs/blob/main/docs/00_Home.md) community-provided documentation of the Obsidian API.
+- [obsidian-dev-tools:](https://github.com/KjellConnelly/obsidian-dev-tools)  allows for a modified console (useful for debugging on mobile), and viewing all Obsidian icons/strings.
+- [obsidian-daily-notes-interface:](https://github.com/liamcain/obsidian-daily-notes-interface) a collection of utility functions for working with dates and daily notes in Obsidian plugins.
+- [obsidian-calendar-ui:](https://github.com/liamcain/obsidian-calendar-ui) provides an out-of-the-box calendar view for Obsidian plugins.
+- [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
+- [#obsidian-md at GitHub](https://github.com/topics/obsidian-md)
+- [Svelte (sometimes used by plugin developers to create components)](https://svelte.dev/)
+- [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
+
