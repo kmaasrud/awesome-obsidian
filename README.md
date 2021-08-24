@@ -23,9 +23,10 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [What is Obsidian?](#what-is-obsidian)
 - [Resources](#resources)
 - [Handy tools](#handy-tools)
-- [Themes](#themes)
 - [CSS Snippets](#css-snippets)
+- [Themes](#themes)
 - [For Developers](#for-developers)
+
 
 # What is Obsidian?
 - [Official Obsidian Website](https://obsidian.md)
@@ -33,6 +34,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Obsidian at Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
 - [Obsidian Beginner Guide at SitePoint](https://www.sitepoint.com/obsidian-beginner-guide/)
 - [Obsidian Official Roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap)
+
 
 # Resources
 - [Official Getting Started Guide](https://dynalist.io/d/CQ4V16tFhIJIfy-rgDK7r1Bp) (may be a little outdated)
@@ -46,6 +48,8 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Santi Younger](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins)
+
+
 # Handy tools
 
 | Name | Description | Credits |
@@ -59,29 +63,6 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
-
-
-# Themes
-
-Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
-
-| Name | Description | Image | Credits |
-| :--: | :---------- | ----- | ------: |
-[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha)
-[80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md) | A retro-future 80s inspired theme for Obsidian.  | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg) | [deathau](https://github.com/deathau)
-[Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md) | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/. | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif) | [deathau](https://github.com/deathau)
-[OneDark Theme](https://github.com/pionxzh/OneDark-obsidian) | This theme is based on One Dark Pro and One Dark Pro is based on Atom's default One Dark theme. Currently only supports Dark mode. | ![](https://raw.githubusercontent.com/pionxzh/OneDark-obsidian/master/img/sample_1.png) | [pionxzh](https://github.com/pionxzh)
-[Dracula](https://github.com/jarodise/Dracula-for-Obsidian.md) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/jarodise/Dracula-for-Obsidian.md/master/screencap.jpg) | [jarodise](https://github.com/jarodise)
-[Comfort Color Dark Theme](https://github.com/obsidian-ezs/obsidian-comfort-color-dark) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-comfort-color-dark/master/screencap.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
-[Gruvbox Theme](https://github.com/insanum/obsidian_gruvbox) | This is a gruvbox theme for Obsidian. It supports both light and dark modes. | ![](https://raw.githubusercontent.com/insanum/obsidian_gruvbox/master/dark.png) | [insanum](https://github.com/insanum)
-[Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md) | A light theme for Obsidian. | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png) | [dogwaddle](https://github.com/dogwaddle)
-[Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
-[Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/screenshot.png) | [Slowbad](https://github.com/Slowbad)
-[Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
-[Obsidian + Nord](https://github.com/insanum/obsidian_nord) | A Nord-based theme for Obsidian, only supporting dark mode | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png) | [insanum](https://github.com/insanum) |
-[Illusion Theme](https://github.com/ZaherAlMajed/Illusion-Theme.md) | A light theme for Obsidian. The theme is comfortable to the eye everything is a bit bigger and contrasted, combining dark & light themes gave it a unique touch. | ![](https://user-images.githubusercontent.com/54148795/125782571-78762279-c644-477a-9cdb-0666603190b9.png) | [Zaher Al Majed](https://github.com/ZaherAlMajed)|
-[Horizon](https://github.com/tylernguyen/obsidian-horizon) | Dark theme for Obsidian, inspired by the similarly named theme for VSCode. Compatible with Obsidian Desktop, Mobile, and Publish.  | ![Horizon Preview](https://raw.githubusercontent.com/tylernguyen/obsidian-horizon/main/assets/preview.png) | [Tyler Nguyen](https://github.com/tylernguyen)|
-[Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
 
 
 # CSS Snippets
@@ -108,6 +89,7 @@ Not enough? There are many other places related to snippets:
 - [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css/l/top)
 - [CSS snippets in Obsidian Help](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets)
 - [Other GitHub repositories](https://github.com/search?q=obsidian-snippets)
+
 ## [Collapsing Sidebar](code/css-snippets/collapsing-sidebar.css)
 by [@Kmaasrud](https://github.com/kmaasrud)
 
@@ -138,7 +120,6 @@ by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 ![](media/css-snippets/smaller-scrollbar-1.png)
 
 [📁 smaller-scrollbar.css](code/css-snippets/smaller-scrollbar.css)
-
 
 ---
 
@@ -213,8 +194,6 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 
 [📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
 
-
-
 ---
 
 ## [Tag Pills](code/css-snippets/tag-pills.css)
@@ -253,6 +232,30 @@ Give your images a shadow and rounded corners.
 [📁 image-cards.css](code/css-snippets/image-cards.css)
 
 ---
+
+
+# Themes
+
+Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
+
+| Name | Description | Image | Credits |
+| :--: | :---------- | ----- | ------: |
+[Official Dracula theme](https://draculatheme.com/obsidian) | A dark theme hosted by the official Dracula guys | ![](https://draculatheme.com/static/img/screenshots/obsidian.png) | [dracula](https://github.com/dracula), [andybyers21](https://github.com/andybyers21) and [zenorocha](https://github.com/zenorocha)
+[80s Neon](https://github.com/deathau/80s-Neon-for-Obsidian.md) | A retro-future 80s inspired theme for Obsidian.  | ![](https://raw.githubusercontent.com/deathau/80s-Neon-for-Obsidian.md/master/screenshot.jpg) | [deathau](https://github.com/deathau)
+[Base2Tone](https://github.com/deathau/Base2Tone-For-Obsidian.md) | A theme for Obsidian based on http://base2t.one/ with default hues from http://simurai.com/duotone-dark-sky-syntax/. | ![](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/master/colours.gif) | [deathau](https://github.com/deathau)
+[OneDark Theme](https://github.com/pionxzh/OneDark-obsidian) | This theme is based on One Dark Pro and One Dark Pro is based on Atom's default One Dark theme. Currently only supports Dark mode. | ![](https://raw.githubusercontent.com/pionxzh/OneDark-obsidian/master/img/sample_1.png) | [pionxzh](https://github.com/pionxzh)
+[Dracula](https://github.com/jarodise/Dracula-for-Obsidian.md) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/jarodise/Dracula-for-Obsidian.md/master/screencap.jpg) | [jarodise](https://github.com/jarodise)
+[Comfort Color Dark Theme](https://github.com/obsidian-ezs/obsidian-comfort-color-dark) | A dark theme for Obsidian. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-comfort-color-dark/master/screencap.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
+[Gruvbox Theme](https://github.com/insanum/obsidian_gruvbox) | This is a gruvbox theme for Obsidian. It supports both light and dark modes. | ![](https://raw.githubusercontent.com/insanum/obsidian_gruvbox/master/dark.png) | [insanum](https://github.com/insanum)
+[Gastown](https://github.com/dogwaddle/obsidian-gastown-theme.md) | A light theme for Obsidian. | ![](https://raw.githubusercontent.com/dogwaddle/obsidian-gastown-theme.md/master/ObsidianOne.png) | [dogwaddle](https://github.com/dogwaddle)
+[Ursa](https://github.com/obsidian-ezs/obsidian-ursa) | A light and dark theme for Obsidian featuring "zen mode" with collapsing side panels and improved single pane viewing. | ![](https://raw.githubusercontent.com/obsidian-ezs/obsidian-ursa/master/light-theme_full.png) | [obsidian-ezs](https://github.com/obsidian-ezs)
+[Obsidian Solarized](https://github.com/Slowbad/obsidian-solarized) | This is just a recolor based on the solarized color scheme. | ![](https://raw.githubusercontent.com/Slowbad/obsidian-solarized/master/screenshot.png) | [Slowbad](https://github.com/Slowbad)
+[Red Graphite](https://github.com/seanwcom/Red-Graphite-for-Obsidian) | A light theme for Obsidian, based on Bear.app's Red Graphite theme. | ![](https://raw.githubusercontent.com/seanwcom/Red-Graphite-for-Obsidian/master/screenshot01.png) | [seanwcom](https://github.com/seanwcom) |
+[Obsidian + Nord](https://github.com/insanum/obsidian_nord) | A Nord-based theme for Obsidian, only supporting dark mode | ![](https://raw.githubusercontent.com/insanum/obsidian_nord/master/screen.png) | [insanum](https://github.com/insanum) |
+[Illusion Theme](https://github.com/ZaherAlMajed/Illusion-Theme.md) | A light theme for Obsidian. The theme is comfortable to the eye everything is a bit bigger and contrasted, combining dark & light themes gave it a unique touch. | ![](https://user-images.githubusercontent.com/54148795/125782571-78762279-c644-477a-9cdb-0666603190b9.png) | [Zaher Al Majed](https://github.com/ZaherAlMajed)|
+[Horizon](https://github.com/tylernguyen/obsidian-horizon) | Dark theme for Obsidian, inspired by the similarly named theme for VSCode. Compatible with Obsidian Desktop, Mobile, and Publish.  | ![Horizon Preview](https://raw.githubusercontent.com/tylernguyen/obsidian-horizon/main/assets/preview.png) | [Tyler Nguyen](https://github.com/tylernguyen)|
+[Behave dark](https://gitlab.com/chrismettal/obsidian-behave-dark) | A port of the eye friendly `Behave` theme by Christian Petersen, available for `VSCode`, `FreeCAD`, `KiCAD`, and now `Obsidian`! | ![BehaveDark](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/main/Screenshot.png) | [Chrismettal](https://gitlab.com/chrismettal)|
+
 
 # For Developers
 
