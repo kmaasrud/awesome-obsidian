@@ -129,6 +129,7 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Stylish Block Quotes](#stylish-block-quotes)
 - [Bigger Link Popup Preview](#bigger-link-popup-preview)
 - [Custom Icons Differing Files and Folders](#custom-icons-differing-files-and-folders)
+- [Custom Icons for Specific Folders](#custom-icons-for-specific-folders)
 - [Tag Pills](#tag-pills)
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
@@ -242,6 +243,18 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 [📁 custom-icons-differing-files-and-folders.css](code/css-snippets/custom-icons-differing-files-and-folders.css)
 
 [📁 IcoMoon.io Free Version](https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip)
+
+---
+
+## Custom Icons for Specific Folders
+
+by [@ScottKillen](https://github.com/ScottKillen)
+
+Adds custom icons to **specific** folders.
+
+![](media/css-snippets/custom-icons-for-specific-folders-1.png)
+
+[📁 custom-icons-for-specific-folders.css](code/css-snippets/custom-icons-for-specific-folders.css)
 
 ---
 
