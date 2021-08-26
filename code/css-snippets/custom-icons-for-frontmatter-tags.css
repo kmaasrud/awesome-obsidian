@@ -1,0 +1,39 @@
+/* ====== Custom icons for frontmatter tags ======== */
+
+/* Add tag icon to the right of all frontmatter tags by default */
+.frontmatter-section-tags .tag:not(.token)::after {
+  content: '🔖';
+}
+
+/* Remove the tag icon from specific tags */
+.frontmatter-section-tags .tag[href^='#Article']::after,
+.frontmatter-section-tags .tag[href^='#DailyNote']::after,
+.frontmatter-section-tags .tag[href^='#Definition']::after,
+.frontmatter-section-tags .tag[href^='#Note']::after,
+.frontmatter-section-tags .tag[href^='#Person']::after,
+.frontmatter-section-tags .tag[href^='#Sermon']::after,
+.frontmatter-section-tags .tag[href^='#Task']::after {
+  content: '';
+}
+
+/* Add icon to the left of specific tags */
+.frontmatter-section-tags .tag[href^='#Article']::before {
+  content: '📰';
+}
+
+.frontmatter-section-tags .tag[href^='#DailyNote']::before,
+.frontmatter-section-tags .tag[href^='#Note']::before {
+  content: '📝';
+}
+
+.frontmatter-section-tags .tag[href^='#Definition']::before {
+  content: '📖';
+}
+
+.frontmatter-section-tags .tag[href^='#Person']::before {
+  content: '🧑';
+}
+
+.frontmatter-section-tags .tag[href^='#Sermon']::before {
+  content: '✝️';
+}

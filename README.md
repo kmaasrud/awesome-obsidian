@@ -91,6 +91,7 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Custom Icons Differing Files and Folders](#custom-icons-differing-files-and-folders)
 - [Custom Icons for Specific Folders](#custom-icons-for-specific-folders)
 - [Tag Pills](#tag-pills)
+- [Custom Icons for Frontmatter Tags](custom-icons-for-frontmatter-tags)
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
 - [Image Cards](#image-cards)
@@ -224,6 +225,18 @@ by [@uzerper](https://forum.obsidian.md/u/uzerper)
 ![](media/css-snippets/tag-pills-1.png)
 
 [📁 tag-pills.css](code/css-snippets/tag-pills.css)
+
+---
+
+## [Custom Icons for Frontmatter Tags](code/css-snippets/custom-icons-for-frontmatter-tags.css)
+by [@ScottKillen](https://github.com/ScottKillen)
+
+Adds custom icons to **specific** tags in the frontmatter section.
+Compatible with [Tag Pills](#tag-pills) and most themes, including [minimal](https://forum.obsidian.md/t/minimal-theme/3659).
+
+![](media/css-snippets/custom-icons-for-frontmatter-tags-1.png)
+
+[📁 custom-icons-for-frontmatter-tags.css](code/css-snippets/custom-icons-for-frontmatter-tags.css)
 
 ---
 
