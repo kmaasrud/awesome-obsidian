@@ -91,23 +91,27 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Custom Icons Differing Files and Folders](#custom-icons-differing-files-and-folders)
 - [Custom Icons for Specific Folders](#custom-icons-for-specific-folders)
 - [Tag Pills](#tag-pills)
-- [Custom Icons for Frontmatter Tags](custom-icons-for-frontmatter-tags)
+- [Custom Icons for Frontmatter Tags](#custom-icons-for-frontmatter-tags)
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
 - [Image Cards](#image-cards)
 
 Not enough? There are many other places related to snippets:
+
 - [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css/l/top)
 - [CSS snippets in Obsidian Help](https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets)
 - [Other GitHub repositories](https://github.com/search?q=obsidian-snippets)
 
 ## [Collapsing Sidebar](code/css-snippets/collapsing-sidebar.css)
+
 by [@Kmaasrud](https://github.com/kmaasrud)
 
 [📁 collapsing-sidebar.css](code/css-snippets/collapsing-sidebar.css)
 
 ---
+
 ## [Bullet Point Relationship Lines](code/css-snippets/bullet-point-relationship-lines.css)
+
 by [@deathau](https://github.com/deathau)
 
 Relationship lines that shows hierarchy, like in code editors.
