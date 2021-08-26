@@ -40,9 +40,10 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 
 # Resources
+- [Obsidian Help](https://help.obsidian.md/): a open-source Obsidian's official help vault.
+- [Obsidian Roundup](https://obsidianroundup.org/): a weekly roundup of Obsidian.md tips, news & resources via Eleanor Konik.
+- [Obsidian Garden](https://obsidian.garden): a open-source guide to creating your own 🌳 Digital Garden with Obsidian.
 - [Official Getting Started Guide](https://dynalist.io/d/CQ4V16tFhIJIfy-rgDK7r1Bp) (may be a little outdated)
-- [Obsidian Help](https://help.obsidian.md/) (often updated)
-- [Obsidian Roundup](https://obsidianroundup.org/)
 - [🎬 Obsidian Office Hours](https://www.youtube.com/channel/UCJKoNPnBdCSloJ2wlKnV2Fw)
 - [🎬 Obsidian Community Talks](https://www.youtube.com/channel/UCxNSTq2kmupdR6LD400FpvA)
 - [🎬 Linking Your Thinking (Nick Milo)](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA)
@@ -50,7 +51,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Productivity Guru](https://www.youtube.com/playlist?list=PLvmlaxyxtsWz428CtIo_Ia8Bhbo8Uvq2f)
 - [🎬 Santi Younger](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
-- [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins)
+- [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins): a Chinese alternative to Obsidian Roundup
 
 
 # Plugins
@@ -61,14 +62,53 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 
 # External Tools
+- [Converters](#converters)
+- [Browser extensions](#browser-extensions)
+- [Publishing](#publishing)
+- [Other](#other)
+## Converters
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian. | [Conner Tennery](https://github.com/connertennery) |
+| [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [Akos Balasko](https://github.com/akosbalasko) |
+| [keep-it-markdown](https://github.com/djsudduth/keep-it-markdown) | Convert Google Keep notes dynamically to markdown for Obsidian and Notion using the unofficial Keep API. | [Don Sudduth](https://github.com/djsudduth) |
+| [gooseberry](https://github.com/out-of-cheese-error/gooseberry) | A command line utility to generate a knowledge base from Hypothesis annotations. | [out-of-cheese-error](https://github.com/out-of-cheese-error) |
+| [BibleGateway to Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian) | Fetch the text from Bible Gateway and save it as formatted markdown file. Each chapter is saved as one file and navigation between files as well as a book-file is automatically created. All of the chapter files of a book are saved in its numbered folder. | [selfire1](https://github.com/selfire1) |
+| [DayOne JSON to MD](https://github.com/ze-kel/DayOne-JSON-to-MD) | Simple app that converts jsons (packed with media files into zip) exports from Day One to Markdown. | [Kirill Kleymenov](https://github.com/ze-kel) |
+| [Annotation tools](https://github.com/collignon/annotation-tools) | connecting hypothesis and obsidian.md | [Nicolas Collignon](https://github.com/collignon) |
+| [A thousand notes](https://github.com/davidedc/A-thousand-notes) | Scripts for cleaning, validating and maintaining the markdown notes exported from Evernote. | [Davide Della Casa](https://github.com/davidedc) |
+| [PKMigrator](https://github.com/AnweshGangula/PKMigrator) | Tools to migrate between various Personal Knowledge Management Utilities, including Remnote, Obsidian, Roam and Org-roam. | [Anwesh Gangula ](https://github.com/AnweshGangula) |
+| [Goodsidian](https://github.com/selfire1/goodsidian) | Goodsidian takes updates to your shelves on Goodreads and formats them to a note in Obsidian. | [selfire1](https://github.com/selfire1) |
+
+---
+## Browser extensions
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
+| [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
+| [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [Joost Plattel](https://github.com/jplattel) |
+| [Obsidian Bookmark](https://github.com/Liamballin/ObsidianBookmark) | A Chrome extension and nodejs server to allow web clipping to Obsidian. | [Liamballin](https://github.com/Liamballin) |
+
+---
+## Publishing
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
-| [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian | [connertennery](https://github.com/connertennery) |
-| [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
-| [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
-| [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [jplattel](https://github.com/jplattel) |
-| [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [akosbalasko](https://github.com/akosbalasko) |
+| [publish](https://github.com/obsidian-userland/publish) | An open-source Obsidian Publish alternative | [obsidian-userland](https://github.com/obsidian-userland)
+| [quartz](https://github.com/jackyzha0/quartz) | Host your own second brain and digital garden | [jackyzha0](https://github.com/quartz) |
+| [obyde](https://github.com/khalednassar/obyde) | A minimal tool to convert a "standardly" configured Obsidian vault to a Jekyll or Hugo blog. | [Khaled M. Nassar](https://github.com/khalednassar) |
+| [writeup-converter](https://github.com/Twigonometry/writeup-converter) | Script for grabbing markdown files and Obsidian attachments from one folder and copying them to another. Also contains a 'website formatter' that uses regex to parse markdown headers and links and reformat them to create Jekyll-friendly links and contents tables. | [Mac Goodwin](https://github.com/Twigonometry) |
+| [pelican-obsidian](https://github.com/jonathan-s/pelican-obsidian) | Makes it possible to bridge work in obsidian to pelican seamlessly. | [Jonathan Sundqvist](https://github.com/jonathan-s) |
+
+---
+
+## Other
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [Obsidian For Business](https://github.com/tallguyjenks/Obsidian-For-Business) | A combination of a template vault with initial structure and some Microsoft Office VBA Macros to facilitate a powerful, extensible, and flexible plain text workflow using Microsoft Office and Obsidian For Business. | [Bryan Jenks](https://github.com/tallguyjenks) |
+| [Sourcegraph knowledge bases extension](https://github.com/bobheadxi/sourcegraph-knowledge-bases) | Browse Markdown knowledge bases (e.g. Obsidian vaults or Foam repositories) in Sourcegraph. | [Robert Lin](https://github.com/bobheadxi) |
+
+---
 
 # Templates
 | Name | Description | Credits |
@@ -307,6 +347,8 @@ Most themes should be available through the Community Themes pane in Obsidian's 
 - [obsidian-dev-tools:](https://github.com/KjellConnelly/obsidian-dev-tools)  allows for a modified console (useful for debugging on mobile), and viewing all Obsidian icons/strings.
 - [obsidian-daily-notes-interface:](https://github.com/liamcain/obsidian-daily-notes-interface) a collection of utility functions for working with dates and daily notes in Obsidian plugins.
 - [obsidian-calendar-ui:](https://github.com/liamcain/obsidian-calendar-ui) provides an out-of-the-box calendar view for Obsidian plugins.
+- [obsidian-plugin-template](https://github.com/THeK3nger/obsidian-plugin-template): a plugin template customized with a nicer directory structure and some additional tool (like featuring automatic releases with Github's Actions).
+- [obsidian-vault-parser](https://github.com/coffee-cup/obsidian-vault-parser): vault parser for the Obsidian note taking app.
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
 - [#obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [Svelte (sometimes used by plugin developers to create components)](https://svelte.dev/)
