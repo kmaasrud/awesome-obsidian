@@ -206,7 +206,7 @@ Adds custom icons for files and folders. Please read the comments in the `.css` 
 
 ---
 
-## Custom Icons for Specific Folders
+## [Custom Icons for Specific Folders](code/css-snippets/custom-icons-for-specific-folders.css)
 
 by [@ScottKillen](https://github.com/ScottKillen)
 
