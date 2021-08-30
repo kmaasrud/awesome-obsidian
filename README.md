@@ -120,8 +120,8 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
 - [Collapsing Sidebar](#collapsing-sidebar)
 - [Bullet Point Relationship Lines](#bullet-point-relationship-lines)
-- [Task List Preview Relationship Line Correction](#task-list-preview-relationship-line-correction)
 - [Auto-fading UI](#auto-fading-ui)
+- [Smaller Scrollbar](#smaller-scrollbar)
 - [Subtler Folding Gutter Arrows](#subtler-folding-gutter-arrows)
 - [Hyphenation and Justification](#hyphenation-and-justification)
 - [Enlarge Image on Hover](#enlarge-image-on-hover)
