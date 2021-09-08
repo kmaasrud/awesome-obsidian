@@ -315,7 +315,7 @@ Give your images a shadow and rounded corners.
 
 # Themes
 
-Most themes should be available through the Community Themes pane in Obsidian's settings. If not, enable Custom CSS under Plugins, download `obsidian.css` from the desired repository and place it in the vault root.
+Most themes should be available through the Community Themes pane in Obsidian's settings. You can find more info at [Obsidian Help/Add custom styles](https://help.obsidian.md/How+to/Add+custom+styles).
 | Repository | Screenshot |
 | :-----------: | :-----------: |
 | [kognise/obsidian-atom](https://github.com/kognise/obsidian-atom) | ![Atom](https://raw.githubusercontent.com/kognise/obsidian-atom/master/screenshot-hybrid.png "") |
