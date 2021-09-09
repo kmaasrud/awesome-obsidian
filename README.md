@@ -25,7 +25,6 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Plugins](#plugins)
 - [External Tools](#external-tools)
 - [Templates](#templates)
-- [Handy tools](#handy-tools)
 - [CSS Snippets](#css-snippets)
 - [Themes](#themes)
 - [For Developers](#for-developers)
