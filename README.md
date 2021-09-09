@@ -32,14 +32,21 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 
 # What is Obsidian?
+<details>
+<summary></summary>
+
 - [Official Obsidian Website](https://obsidian.md)
 - [Reviews, Pros and Cons of Obsidian at Slant.co](https://www.slant.co/options/37045/~obsidian-md-review)
 - [Obsidian at Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
 - [Obsidian Beginner Guide at SitePoint](https://www.sitepoint.com/obsidian-beginner-guide/)
 - [Obsidian Official Roadmap](https://trello.com/b/Psqfqp7I/obsidian-roadmap)
 
+</details>
 
 # Resources
+<details>
+<summary></summary>
+
 - [Obsidian Help](https://help.obsidian.md/): a open-source Obsidian's official help vault.
 - [Obsidian Roundup](https://obsidianroundup.org/): a weekly roundup of Obsidian.md tips, news & resources via Eleanor Konik.
 - [Obsidian Garden](https://obsidian.garden): a open-source guide to creating your own 🌳 Digital Garden with Obsidian.
@@ -53,20 +60,30 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins): a Chinese alternative to Obsidian Roundup
 
+</details>
 
 # Plugins
+<details>
+<summary></summary>
 
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
-
+  
+</details>
+  
 # External Tools
+<details>
+<summary></summary>
+
 - [Converters](#converters)
 - [Browser extensions](#browser-extensions)
 - [Publishing](#publishing)
 - [Other](#other)
+  
 ## Converters
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian. | [Conner Tennery](https://github.com/connertennery) |
@@ -81,7 +98,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Goodsidian](https://github.com/selfire1/goodsidian) | Goodsidian takes updates to your shelves on Goodreads and formats them to a note in Obsidian. | [selfire1](https://github.com/selfire1) |
 
 ---
+
 ## Browser extensions
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Markdownload](https://github.com/deathau/markdown-clipper) | A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. | [deathau](https://github.com/deathau) |
@@ -90,7 +109,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Bookmark](https://github.com/Liamballin/ObsidianBookmark) | A Chrome extension and nodejs server to allow web clipping to Obsidian. | [Liamballin](https://github.com/Liamballin) |
 
 ---
+
 ## Publishing
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
@@ -103,18 +124,29 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 ---
 
 ## Other
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Obsidian For Business](https://github.com/tallguyjenks/Obsidian-For-Business) | A combination of a template vault with initial structure and some Microsoft Office VBA Macros to facilitate a powerful, extensible, and flexible plain text workflow using Microsoft Office and Obsidian For Business. | [Bryan Jenks](https://github.com/tallguyjenks) |
 | [Sourcegraph knowledge bases extension](https://github.com/bobheadxi/sourcegraph-knowledge-bases) | Browse Markdown knowledge bases (e.g. Obsidian vaults or Foam repositories) in Sourcegraph. | [Robert Lin](https://github.com/bobheadxi) |
 
 ---
+  
+</details>
 
 # Templates
+<details>
+<summary></summary>
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) | A set of Markdown templates for common Obsidian use cases | [masonlr](https://github.com/masonlr), [sharpevo](https://github.com/sharpevo) and [mtomas7](https://github.com/mtomas7) |
+
+</details>
+
 # CSS Snippets
+<details>
+<summary></summary>
 
 Small tweaks to add to your `vault/.obsidian/snippets` folder.
 
@@ -160,7 +192,9 @@ Relationship lines that shows hierarchy, like in code editors.
 [📁 bullet-point-relationship-lines.css](code/css-snippets/bullet-point-relationship-lines.css)
 
 ---
+
 ## [Auto-fading UI](code/css-snippets/autofading-ui.css)
+
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 Fades note's header controls and status bar items when not hovered.
@@ -169,7 +203,9 @@ Fades note's header controls and status bar items when not hovered.
 [📁 autofading-ui.css](code/css-snippets/autofading-ui.css)
 
 ---
+
 ## [Smaller Scrollbar](code/css-snippets/smaller-scrollbar.css)
+
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 ![](media/css-snippets/smaller-scrollbar-1.png)
@@ -179,6 +215,7 @@ by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 ---
 
 ## [Subtler Folding Gutter Arrows](code/css-snippets/subtler-folding-gutter-arrows.css)
+
 by [@Rumen Dimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 Increases the size of the folding gutter arrows and decreases their opacity until hovered.
@@ -190,6 +227,7 @@ Increases the size of the folding gutter arrows and decreases their opacity unti
 ---
 
 ## [Hyphenation and Justification](code/css-snippets/hyphenation-and-justification.css)
+
 by [@Boyd](https://forum.obsidian.md/u/boyd/summary)
 
 Justifies the whole text and breaks words into two lines if needed.
@@ -201,6 +239,7 @@ Justifies the whole text and breaks words into two lines if needed.
 ---
 
 ## [Enlarge Image on Hover](code/css-snippets/enlarge-image-on-hover.css)
+
 by [@den](https://forum.obsidian.md/u/den/summary)
 
 ![](media/css-snippets/enlarge-image-on-hover-1.gif)
@@ -210,6 +249,7 @@ by [@den](https://forum.obsidian.md/u/den/summary)
 ---
 
 ## [Nicer Checkboxes](code/css-snippets/nicer-checkboxes.css)
+
 by [@kepano](https://forum.obsidian.md/u/kepano/summary) & [@rsdimitrov](https://forum.obsidian.md/u/rsdimitrov)
 
 To toggle a checkbox, place your cursor right after it, press left arrow once and then press backspace.
@@ -221,6 +261,7 @@ To toggle a checkbox, place your cursor right after it, press left arrow once an
 ---
 
 ## [Stylish Block Quotes](code/css-snippets/stylish-blockquotes.css)
+
 by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
 ![](media/css-snippets/stylish-blockquotes-1.png)
@@ -230,6 +271,7 @@ by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 ---
 
 ## [Bigger Link Popup Preview](code/css-snippets/bigger-link-popup-preview.css)
+
 by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/bigger-link-popup-preview-1.png)
@@ -239,6 +281,7 @@ by [@Cannibalox](https://github.com/cannibalox) & [@konhi](https://github.com/ko
 ---
 
 ## [Custom Icons Differing Files and Folders](code/css-snippets/custom-icons-differing-files-and-folders.css)
+
 by [@deathau](https://github.com/deathau)
 
 Adds custom icons for files and folders. Please read the comments in the `.css` file.
@@ -264,6 +307,7 @@ Adds custom icons to **specific** folders.
 ---
 
 ## [Tag Pills](code/css-snippets/tag-pills.css)
+
 by [@uzerper](https://forum.obsidian.md/u/uzerper)
 
 ![](media/css-snippets/tag-pills-1.png)
@@ -273,6 +317,7 @@ by [@uzerper](https://forum.obsidian.md/u/uzerper)
 ---
 
 ## [Custom Icons for Frontmatter Tags](code/css-snippets/custom-icons-for-frontmatter-tags.css)
+
 by [@ScottKillen](https://github.com/ScottKillen)
 
 Adds custom icons to **specific** tags in the frontmatter section.
@@ -285,6 +330,7 @@ Compatible with [Tag Pills](#tag-pills) and most themes, including [minimal](htt
 ---
 
 ## [Outliner For The Outline and File Explorer](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
+
 by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsidian.md/u/wonton/summary) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/outliner-for-the-outline-and-file-explorer-1.png)
@@ -292,7 +338,9 @@ by [@Shamama](https://forum.obsidian.md/u/Shamama), [@wonton](https://forum.obsi
 [📁 outliner-for-the-outline-and-file-explorer.css](code/css-snippets/outliner-for-the-outline-and-file-explorer.css)
 
 ---
+
 ## [Better Bullet Points in Edit Mode](code/css-snippets/better-bullet-points-in-edit-mode.css)
+
 by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/konhi)
 
 ![](media/css-snippets/better-bullet-points-in-edit-mode-1.gif)
@@ -302,6 +350,7 @@ by [@Piotr](https://forum.obsidian.md/u/Piotr) & [@konhi](https://github.com/kon
 ---
 
 ## [Image Cards](code/css-snippets/image-cards.css)
+
 by [@TClark1011](https://github.com/TClark1011)
 
 Give your images a shadow and rounded corners.
@@ -312,10 +361,14 @@ Give your images a shadow and rounded corners.
 
 ---
 
+</details>
 
 # Themes
+<details>
+<summary></summary>
 
 Most themes should be available through the `Appearance` => `Community themes` in Obsidian's settings. You can find more info at [Obsidian Help/Add custom styles](https://help.obsidian.md/How+to/Add+custom+styles).
+
 | Repository | Screenshot |
 | :-----------: | :-----------: |
 | [kognise/obsidian-atom](https://github.com/kognise/obsidian-atom) | ![Atom](https://raw.githubusercontent.com/kognise/obsidian-atom/master/screenshot-hybrid.png "") |
@@ -397,9 +450,14 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [firinael/obsidian-cidreira-coast-theme](https://github.com/firinael/obsidian-cidreira-coast-theme) | ![Cidreira Coast](https://raw.githubusercontent.com/firinael/obsidian-cidreira-coast-theme/master/screenshot.png "") |
 | [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/master/dual-theme-screenshot.png "") |
 
+</details>
+
 # For Developers
+<details>
+<summary></summary>
 
 ## Creating Themes
+
 - [#custom-css at Obsidian Forum](https://forum.obsidian.md/tag/custom-css)
   - [Getting comfortable with Obsidian CSS](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)
   - [Common Selectors for Custom CSS](https://forum.obsidian.md/t/common-selectors-for-custom-css/1984)
@@ -409,6 +467,7 @@ Most themes should be available through the `Appearance` => `Community themes` i
 - [obsidian-style-settings:](https://github.com/mgmeyers/obsidian-style-settings)  allows snippet, theme, and plugin CSS files to define a set of configuration options. It then allows users to see all the tweakable settings in one settings pane.
 
 ## Creating Plugins
+
 - [Developers & API at Obsidian Forum](https://forum.obsidian.md/c/developers-api/14)
   - [How to get started with developing a custom plugin](https://forum.obsidian.md/t/how-to-get-started-with-developing-a-custom-plugin/8157)
   - [Using GitHub actions to release plugins](https://forum.obsidian.md/t/using-github-actions-to-release-plugins/7877)
@@ -432,3 +491,4 @@ Most themes should be available through the `Appearance` => `Community themes` i
 - [Svelte (sometimes used by plugin developers to create components)](https://svelte.dev/)
 - [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
 
+</details>
