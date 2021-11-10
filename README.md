@@ -113,7 +113,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
-| [Oboe - Obsidian to HTML converter](https://github.com/kmaasrud/oboe) | Command line tool that converts an Obsidian vault into a vault of HTML files. Useful for publishing a vault as a static website. | [kmaasrud](https://github.com/kmaasrud) |
+| [mdzk](https://github.com/mdzk-rs/mdzk) | Zettelkasten system and command line static publishing tool. Aims at full support for Obsidian Markdown. | [mdzk-rs](https://github.com/mdzk-rs) |
 | [publish](https://github.com/obsidian-userland/publish) | An open-source Obsidian Publish alternative | [obsidian-userland](https://github.com/obsidian-userland)
 | [quartz](https://github.com/jackyzha0/quartz) | Host your own second brain and digital garden | [jackyzha0](https://github.com/quartz) |
 | [obyde](https://github.com/khalednassar/obyde) | A minimal tool to convert a "standardly" configured Obsidian vault to a Jekyll or Hugo blog. | [Khaled M. Nassar](https://github.com/khalednassar) |
