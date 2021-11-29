@@ -115,7 +115,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | :--: | :---------- | ------: |
 | [mdzk](https://github.com/mdzk-rs/mdzk) | Zettelkasten system and command line static publishing tool. Aims at full support for Obsidian Markdown. | [mdzk-rs](https://github.com/mdzk-rs) |
 | [publish](https://github.com/obsidian-userland/publish) | An open-source Obsidian Publish alternative | [obsidian-userland](https://github.com/obsidian-userland)
-| [quartz](https://github.com/jackyzha0/quartz) | Host your own second brain and digital garden | [jackyzha0](https://github.com/quartz) |
+| [quartz](https://github.com/jackyzha0/quartz) | Host your own second brain and digital garden | [jackyzha0](https://github.com/jackyzha0) |
 | [obyde](https://github.com/khalednassar/obyde) | A minimal tool to convert a "standardly" configured Obsidian vault to a Jekyll or Hugo blog. | [Khaled M. Nassar](https://github.com/khalednassar) |
 | [writeup-converter](https://github.com/Twigonometry/writeup-converter) | Script for grabbing markdown files and Obsidian attachments from one folder and copying them to another. Also contains a 'website formatter' that uses regex to parse markdown headers and links and reformat them to create Jekyll-friendly links and contents tables. | [Mac Goodwin](https://github.com/Twigonometry) |
 | [pelican-obsidian](https://github.com/jonathan-s/pelican-obsidian) | Makes it possible to bridge work in obsidian to pelican seamlessly. | [Jonathan Sundqvist](https://github.com/jonathan-s) |
