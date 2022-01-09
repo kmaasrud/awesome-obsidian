@@ -181,6 +181,7 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Outliner For The Outline and File Explorer](#outliner-for-the-outline-and-file-explorer)
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
 - [Image Cards](#image-cards)
+- [Media Grid](#media-grid)
 
 Not enough? There are many other places related to snippets:
 
@@ -372,6 +373,19 @@ Give your images a shadow and rounded corners.
 ![](media/css-snippets/image-cards-1.png)
 
 [📁 image-cards.css](code/css-snippets/image-cards.css)
+
+---
+
+## [Media Grid](https://github.com/zremboldt/obsidian-media-grid)
+
+by [@zremboldt](https://github.com/zremboldt)
+
+Add more meaning and visual interest to your documents by easily grouping sets of images, videos, or even audio tracks into grid layouts.  
+I've linked to my repo for a more thorough explanation of custom settings, requirements, how it works, etc.
+
+![](media/css-snippets/media-grid.png)
+
+[Obsidian Media Grid repo](https://github.com/zremboldt/obsidian-media-grid)
 
 ---
 
