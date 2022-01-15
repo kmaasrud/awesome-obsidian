@@ -376,16 +376,18 @@ Give your images a shadow and rounded corners.
 
 ---
 
-## [Media Grid](https://github.com/zremboldt/obsidian-media-grid)
+## [Media Grid](code/css-snippets/media-grid.css)
 
 by [@zremboldt](https://github.com/zremboldt)
 
 Add more meaning and visual interest to your documents by easily grouping sets of images, videos, or even audio tracks into grid layouts.  
-I've linked to my repo for a more thorough explanation of custom settings, requirements, how it works, etc.
+
+IMPORTANT
+For information on requirements and how to use this snippet, see its [original repo](https://github.com/zremboldt/obsidian-media-grid).
 
 ![](media/css-snippets/media-grid.png)
 
-[Obsidian Media Grid repo](https://github.com/zremboldt/obsidian-media-grid)
+[📁 media-grid.css](code/css-snippets/media-grid.css)
 
 ---
 
