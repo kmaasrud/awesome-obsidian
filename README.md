@@ -69,6 +69,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | :--: | :---------- | ------: |
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
+| [HackerNews](https://github.com/arpitbbhayani/obsidian-hackernews) | Periodically fetches and displays top stories from HackerNews in Obsidian | [arpitbbhayani](https://github.com/arpitbbhayani) |
   
 </details>
   
