@@ -96,6 +96,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [A thousand notes](https://github.com/davidedc/A-thousand-notes) | Scripts for cleaning, validating and maintaining the markdown notes exported from Evernote. | [Davide Della Casa](https://github.com/davidedc) |
 | [PKMigrator](https://github.com/AnweshGangula/PKMigrator) | Tools to migrate between various Personal Knowledge Management Utilities, including Remnote, Obsidian, Roam and Org-roam. | [Anwesh Gangula ](https://github.com/AnweshGangula) |
 | [Goodsidian](https://github.com/selfire1/goodsidian) | Goodsidian takes updates to your shelves on Goodreads and formats them to a note in Obsidian. | [selfire1](https://github.com/selfire1) |
+| [gc2md](https://github.com/needmorecowbell/gc2md) | Simple script to convert exported Google Contacts to Markdown | [needmorecowbell](https://github.com/needmorecowbell) |
 
 ---
 
