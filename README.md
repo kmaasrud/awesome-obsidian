@@ -29,8 +29,8 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Themes](#themes)
 - [For Developers](#for-developers)
 
-
 # What is Obsidian?
+
 <details>
 <summary></summary>
 
@@ -43,6 +43,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 </details>
 
 # Resources
+
 <details>
 <summary></summary>
 
@@ -62,6 +63,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 </details>
 
 # Plugins
+
 <details>
 <summary></summary>
 
@@ -74,6 +76,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 </details>
   
 # External Tools
+
 <details>
 <summary></summary>
 
@@ -94,7 +97,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [DayOne JSON to MD](https://github.com/ze-kel/DayOne-JSON-to-MD) | Simple app that converts jsons (packed with media files into zip) exports from Day One to Markdown. | [Kirill Kleymenov](https://github.com/ze-kel) |
 | [Annotation tools](https://github.com/collignon/annotation-tools) | connecting hypothesis and obsidian.md | [Nicolas Collignon](https://github.com/collignon) |
 | [A thousand notes](https://github.com/davidedc/A-thousand-notes) | Scripts for cleaning, validating and maintaining the markdown notes exported from Evernote. | [Davide Della Casa](https://github.com/davidedc) |
-| [PKMigrator](https://github.com/AnweshGangula/PKMigrator) | Tools to migrate between various Personal Knowledge Management Utilities, including Remnote, Obsidian, Roam and Org-roam. | [Anwesh Gangula ](https://github.com/AnweshGangula) |
+| [PKMigrator](https://github.com/AnweshGangula/PKMigrator) | Tools to migrate between various Personal Knowledge Management Utilities, including Remnote, Obsidian, Roam and Org-roam. | [Anwesh Gangula](https://github.com/AnweshGangula) |
 | [Goodsidian](https://github.com/selfire1/goodsidian) | Goodsidian takes updates to your shelves on Goodreads and formats them to a note in Obsidian. | [selfire1](https://github.com/selfire1) |
 
 ---
@@ -138,6 +141,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 </details>
 
 # Templates
+
 <details>
 <summary></summary>
 
@@ -151,7 +155,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian JG Method](https://github.com/joshwingreene/Obsidian-JG-Method) | A starter kit that follows how to use Obsidian to manage goals, tasks, notes, and software development knowledge base. | [joshwingreene](https://github.com/joshwingreene) |
 | [SlRvb’s Journaling Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+Bullet+Journal+Setup) | This is a deep dive into how SlRvb go about journaling the things that happen in his life. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
 | [SlRvb’s MediaDB Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+MediaDB+Vault+Setup) | Setup for a database vault that stores entertainment media. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
+
 ## Note templates
+
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Obsidian Templates](https://github.com/chetachiezikeuzor/Obsidian-Templates) | Few templates, such as admonitions, chess plays, clipboard and others | [Chetachi Ezikeuzor](https://github.com/chetachiezikeuzor) |
@@ -160,6 +166,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 </details>
 
 # CSS Snippets
+
 <details>
 <summary></summary>
 
@@ -183,6 +190,7 @@ Small tweaks to add to your `vault/.obsidian/snippets` folder.
 - [Better Bullet Points in Edit Mode](#better-bullet-points-in-edit-mode)
 - [Image Cards](#image-cards)
 - [Media Grid](#media-grid)
+- [Custom-folder-files-tree](#Custom-folder-files-tree)
 
 Not enough? There are many other places related to snippets:
 
@@ -392,9 +400,18 @@ For information on requirements and how to use this snippet, see its [original r
 
 ---
 
+## [Custom-folder-files-tree](code/css-snippets/custom-folder-files-tree.css)
+
+![preview](media/css-snippets/custom-folder-files-tree.gif)
+
+[📁 custom-folder-files-tree.css](code/css-snippets/custom-folder-files-tree.css)
+
+---
+
 </details>
 
 # Themes
+
 <details>
 <summary></summary>
 
@@ -484,6 +501,7 @@ Most themes should be available through the `Appearance` => `Community themes` i
 </details>
 
 # For Developers
+
 <details>
 <summary></summary>
 

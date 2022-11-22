@@ -1,0 +1,122 @@
+/* Custom icons for specific folders or files */
+
+:root {
+  --active-file-bg-color: #005C00;
+  --active-file-fg-color: #ffffff;
+}
+
+/* folder begin */
+.nav-folder-title {
+  cursor: pointer !important;
+}
+.nav-file-title-content, .nav-folder-title-content {
+  display: flex !important;
+  align-items: center;
+}
+.nav-folder-title-content::before {
+  content: '';
+  background: url("https://media.macosicons.com/parse/files/macOSicons/af21153d07a2e92bde7b2ad155055489_low_res_1619092574091.png") no-repeat center;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* root folder */
+div[data-path="/"] .nav-folder-title-content::before
+{
+  content: '';
+}
+/* 所有的附件目录, 我自定义的附件目录为笔记所在目录的名为 attachments 的子目录, 匹配以 attachments 结尾 */
+/* All attachment directories, and my custom `attachments` directory is the subdirectory named `attachments` of the note directory and ends with the matching `attachments` */
+div[data-path$="attachments"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/325fcaee7fcf0ce428cddec2a53675c1_low_res_Folder___Favourite_Images.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/c84880ed4b36bcaf78df9580aa069a43_low_res_Programming_Folder.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/工具"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/9d1f67b889d73ed9813c83199e039354_low_res_Developer_Folder.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/Docker"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/f024d0e956f6663fb48b55ac11673f54_low_res_Docker.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/MacOS"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/4ad8d9253a2541e49b6d86d5fe0f6829_low_res_Apple.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/MySQL"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/dfb95bab582395d9e5fa89284bb24e34_MySQL_Workbench.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/RabbitMQ"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/28c81b354a89b7ebeb599a849f5291a2_low_res_Matrix_Follow_the_White_Rabbit_Folder.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/Spring"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/d89876a20a9ce438cc7f437a7704a6a2_low_res_Spring_Tool_Suite_4.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/Linux"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/6604c58f3ffcd4648f6c1bf1a956818b_low_res_Linux.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/Jenkins"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/c5e3a3b55e2e23b9dc839305fe53dbf1_low_res_Jenkins.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/Java"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/f4ae1a3f1d2143a2e2ec0b94ea374ace_low_res_Java.png") no-repeat center;
+  background-size: 100%;
+}
+div[data-path="编程/GitLab"] .nav-folder-title-content::before
+{
+  background: url("https://media.macosicons.com/parse/files/macOSicons/d7033bb681a9f5ae6f3b0479573b0352_low_res_Gitlab.png") no-repeat center;
+  background-size: 100%;
+}
+/* folder end */
+
+/* file begin */
+.nav-file-title {
+  cursor: pointer !important;
+}
+.nav-file-title-content::before {
+  content: '';
+  background: url("https://media.macosicons.com/parse/files/macOSicons/c66c64dea9d84b6dcb21836d5fa451e5_low_res_Google_Docs.png") no-repeat center;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* All attachment hidden file icon */
+.nav-file-title[data-path*="attachments"] .nav-file-title-content::before {
+  content: '';
+  background: none !important;
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  margin-right: 0px;
+}
+body:not(.is-grabbing) .nav-file-title.is-active:hover, body:not(.is-grabbing) .nav-folder-title.is-active:hover, .nav-file-title.is-active, .nav-folder-title.is-active {
+  background: var(--active-file-bg-color) !important;
+  color: var(--active-file-fg-color) !important;
+}
+/* file end */
+
+
