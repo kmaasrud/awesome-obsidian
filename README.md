@@ -496,7 +496,7 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [SMUsamaShah/Obsidian-Win98-Edition](https://github.com/SMUsamaShah/Obsidian-Win98-Edition) | ![Obsidian Windows 98 Edition](https://raw.githubusercontent.com/SMUsamaShah/Obsidian-Win98-Edition/master/screenshots/main.png "") |
 | [dogwaddle/lizardmen-zettelkasten](https://github.com/dogwaddle/lizardmen-zettelkasten) | ![Lizardmen Zettelkasten](https://raw.githubusercontent.com/dogwaddle/lizardmen-zettelkasten/master/screenshot.png "") |
 | [firinael/obsidian-cidreira-coast-theme](https://github.com/firinael/obsidian-cidreira-coast-theme) | ![Cidreira Coast](https://raw.githubusercontent.com/firinael/obsidian-cidreira-coast-theme/master/screenshot.png "") |
-| [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/master/dual-theme-screenshot.png "") |
+| [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/main/assets/promo-screenshot-big.png "") |
 
 </details>
 
