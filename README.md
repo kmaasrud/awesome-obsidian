@@ -497,6 +497,7 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [dogwaddle/lizardmen-zettelkasten](https://github.com/dogwaddle/lizardmen-zettelkasten) | ![Lizardmen Zettelkasten](https://raw.githubusercontent.com/dogwaddle/lizardmen-zettelkasten/master/screenshot.png "") |
 | [firinael/obsidian-cidreira-coast-theme](https://github.com/firinael/obsidian-cidreira-coast-theme) | ![Cidreira Coast](https://raw.githubusercontent.com/firinael/obsidian-cidreira-coast-theme/master/screenshot.png "") |
 | [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/main/assets/promo-screenshot-big.png "") |
+| [caro401/royal-velvet](https://github.com/caro401/royal-velvet) | ![Royal Velvet](https://raw.githubusercontent.com/caro401/royal-velvet/main/royal-velvet.png "") |
 
 </details>
 
