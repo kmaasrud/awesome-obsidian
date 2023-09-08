@@ -16,24 +16,24 @@ https://github.com/mgmeyers/obsidian-contextual-typography
   /* ----------------------------------------- */
   
   /* Wrapper with padding keeps content from bumping the edges */
-  .markdown-preview-view.is-readable-line-width {
+  .markdown-preview-view {
     padding-inline: 30px;
   }
   
   /* Container controlling overall max content width */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section {
+  .markdown-preview-view .markdown-preview-section {
     width: 100%;
     max-width: var(--content-max-width, 45rem); /* Second value is fallback in case user isn't using Style settings */
   }
   
   /* All children of overall container are divs */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section > div {
+  .markdown-preview-view .markdown-preview-section > div {
     margin-inline: auto;
     width: min(var(--content-base-width), 100%);
   }
   
   /* Specific children of overall container that contain media */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] {
     width: 100%;
   }
   
@@ -42,7 +42,7 @@ https://github.com/mgmeyers/obsidian-contextual-typography
   /* ----------------------------------------- */
   
   /* p tags wrap each row */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] > p {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] > p {
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(0, 1fr));
     grid-gap: var(--media-grid-gap, 7px);
@@ -50,18 +50,18 @@ https://github.com/mgmeyers/obsidian-contextual-typography
   }
   
   /* Remove breaks from the document flow */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] > p br {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] > p br {
     display: none;
   }
   
   /* Media items sourced from your vault are wrapped in a span – media linked from the web is not wrapped */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] > p > span {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] > p > span {
     display: flex;
   }
   
   /* Apply this to all img/video tags in a row whether they're wrapped in a span or not */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] > p img,
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] > p video {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] > p img,
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] > p video {
     flex: 1;
     align-self: stretch;
     object-fit: cover;
@@ -69,7 +69,7 @@ https://github.com/mgmeyers/obsidian-contextual-typography
   }
   
   /* Create gaps between rows */
-  .markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] + div[data-is-embed] {
+  .markdown-preview-view .markdown-preview-section div[data-is-embed] + div[data-is-embed] {
     margin-top: var(--media-grid-gap, 7px);
   }
   
