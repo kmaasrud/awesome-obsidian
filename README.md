@@ -539,6 +539,6 @@ Most themes should be available through the `Appearance` => `Community themes` i
 - [Liam Cain's Obsidian API FAQ](https://liamca.in/Obsidian/API+FAQ/index)
 - [#obsidian-md at GitHub](https://github.com/topics/obsidian-md)
 - [Svelte (sometimes used by plugin developers to create components)](https://svelte.dev/)
-- [What tools and libraries are used in Obsidian?](https://konhi.me/obsidian-stack.html)
+- [What tools and libraries are used in Obsidian?](https://web.archive.org/web/20220626022347/https://konhi.me/obsidian-stack.html)
 
 </details>
