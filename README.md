@@ -49,7 +49,6 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 - [Obsidian Help](https://help.obsidian.md/): a open-source Obsidian's official help vault.
 - [Obsidian Roundup](https://obsidianroundup.org/): a weekly roundup of Obsidian.md tips, news & resources via Eleanor Konik.
-- [Obsidian Garden](https://obsidian.garden): a open-source guide to creating your own 🌳 Digital Garden with Obsidian.
 - [Official Getting Started Guide](https://dynalist.io/d/CQ4V16tFhIJIfy-rgDK7r1Bp) (may be a little outdated)
 - [🎬 Obsidian Office Hours](https://www.youtube.com/channel/UCJKoNPnBdCSloJ2wlKnV2Fw)
 - [🎬 Obsidian Community Talks](https://www.youtube.com/channel/UCxNSTq2kmupdR6LD400FpvA)
