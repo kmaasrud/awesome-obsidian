@@ -1,0 +1,15 @@
+/* Edit view */
+.cm-s-obsidian span.cm-inline-code,
+td code {
+  color: #9fef00 !important; /* Text color */
+}
+
+/* Reading view */
+.markdown-preview-view code {
+  color: #9fef00; /* Text color */
+}
+
+/* Prevents recoloring of code block snippets in reading view */
+.markdown-preview-view pre code {
+  color: initial; /* Reset text color */
+}
