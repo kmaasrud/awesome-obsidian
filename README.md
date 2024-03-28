@@ -289,6 +289,9 @@ by [@Thery](https://forum.obsidian.md/u/Thery/summary)
 
 ![](media/css-snippets/stylish-blockquotes-1.png)
 
+![](https://github.com/aditya-an1l/awesome-obsidian/assets/140952269/c3636a80-1052-44a6-bb6d-55cb2121f7ea)
+
+
 [📁 stylish-blockquotes.css](code/css-snippets/stylish-blockquotes.css)
 
 ---
