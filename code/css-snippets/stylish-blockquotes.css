@@ -8,6 +8,8 @@ blockquote:before {
   font-size: 3em;
   line-height: 0.1em;
   vertical-align: -0.4em;
+  
+  color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 }
 blockquote p {
   display: inline;
