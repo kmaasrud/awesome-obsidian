@@ -5,11 +5,11 @@
 blockquote:before {
   font: 14px/20px italic Times, serif;
   content: "“";
-  /* Uncomment the following to add the Accent color to the “ symbol */
-  /* color: hsl(var(--accent-h), var(--accent-s), var(--accent-l)); */
   font-size: 3em;
   line-height: 0.1em;
   vertical-align: -0.4em;
+  /* Uncomment the following to add the Accent color to the “ symbol */
+  /* color: hsl(var(--accent-h), var(--accent-s), var(--accent-l)); */
 }
 blockquote p {
   display: inline;
