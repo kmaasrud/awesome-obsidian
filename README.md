@@ -89,6 +89,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian. | [Conner Tennery](https://github.com/connertennery) |
+| [Caramelize Wiki Exporter](https://github.com/dahie/caramelize) | Export various wikis to git-tracked markdown notes with full history. | [Daniel Senff](https://github.com/dahie) |
 | [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [Akos Balasko](https://github.com/akosbalasko) |
 | [keep-it-markdown](https://github.com/djsudduth/keep-it-markdown) | Convert Google Keep notes dynamically to markdown for Obsidian and Notion using the unofficial Keep API. | [Don Sudduth](https://github.com/djsudduth) |
 | [gooseberry](https://github.com/out-of-cheese-error/gooseberry) | A command line utility to generate a knowledge base from Hypothesis annotations. | [out-of-cheese-error](https://github.com/out-of-cheese-error) |
