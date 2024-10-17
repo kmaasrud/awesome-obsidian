@@ -71,9 +71,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 | [Shell commands](https://github.com/Taitava/obsidian-shellcommands) | You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported. | [Jarkko Linnanvirta](https://github.com/Taitava) |
-  
+
 </details>
-  
+
 # External Tools
 
 <details>
@@ -83,7 +83,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Browser extensions](#browser-extensions)
 - [Publishing](#publishing)
 - [Other](#other)
-  
+
 ## Converters
 
 | Name | Description | Credits |
@@ -134,9 +134,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian For Business](https://github.com/tallguyjenks/Obsidian-For-Business) | A combination of a template vault with initial structure and some Microsoft Office VBA Macros to facilitate a powerful, extensible, and flexible plain text workflow using Microsoft Office and Obsidian For Business. | [Bryan Jenks](https://github.com/tallguyjenks) |
 | [Sourcegraph knowledge bases extension](https://github.com/bobheadxi/sourcegraph-knowledge-bases) | Browse Markdown knowledge bases (e.g. Obsidian vaults or Foam repositories) in Sourcegraph. | [Robert Lin](https://github.com/bobheadxi) |
 | [Obweb](https://github.com/chenyukang/obweb/) | Web applcation to view and edit files in an Obsidian vault. Optimized for mobile devices. | [Yukang Chen](https://github.com/chenyukang) |
-  
+
 ---
-  
+
 </details>
 
 # Templates
@@ -388,7 +388,7 @@ Give your images a shadow and rounded corners.
 
 by [@zremboldt](https://github.com/zremboldt)
 
-Add more meaning and visual interest to your documents by easily grouping sets of images, videos, or even audio tracks into grid layouts.  
+Add more meaning and visual interest to your documents by easily grouping sets of images, videos, or even audio tracks into grid layouts.
 
 IMPORTANT
 For information on requirements and how to use this snippet, see its [original repo](https://github.com/zremboldt/obsidian-media-grid).
@@ -497,6 +497,7 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [firinael/obsidian-cidreira-coast-theme](https://github.com/firinael/obsidian-cidreira-coast-theme) | ![Cidreira Coast](https://raw.githubusercontent.com/firinael/obsidian-cidreira-coast-theme/master/screenshot.png "") |
 | [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/main/assets/promo-screenshot-big.png "") |
 | [caro401/royal-velvet](https://github.com/caro401/royal-velvet) | ![Royal Velvet](https://raw.githubusercontent.com/caro401/royal-velvet/main/royal-velvet.png "") |
+| [AnubisNekhet/AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) | ![anuPpuccin](https://raw.githubusercontent.com/AnubisNekhet/AnuPpuccin/refs/heads/main/assets/gh-preview.webp) |
 
 </details>
 
