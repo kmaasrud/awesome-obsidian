@@ -24,6 +24,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Resources](#resources)
 - [Plugins](#plugins)
 - [External Tools](#external-tools)
+- [Importers & Converters](#importers--converters)
 - [Templates](#templates)
 - [CSS Snippets](#css-snippets)
 - [Themes](#themes)
@@ -78,6 +79,10 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 <details>
 <summary></summary>
+
+| Tool | Description | Author |
+|------|-------------|--------|
+
 
 - [Converters](#converters)
 - [Browser extensions](#browser-extensions)
@@ -137,6 +142,17 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
   
 ---
   
+</details>
+
+# Importers & Converters
+
+<details>
+<summary></summary>
+
+| Tool | Description | Author |
+|------|-------------|--------|
+| [CTB2MD](https://github.com/Polyx10/CTB2MD) | Native macOS tool to convert Cherrytree (.ctb) notes to Obsidian-compatible Markdown format. Preserves note structure, formatting, and command blocks. | [Polyx10](https://github.com/Polyx10) |
+
 </details>
 
 # Templates
