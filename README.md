@@ -116,6 +116,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
+| [Image Upload Toolkit](https://github.com/addozhang/obsidian-image-upload-toolkit) | Upload local images to multiple cloud platforms (Imgur, GitHub, Cloudflare R2, AWS S3, and more) and automatically update markdown links. Perfect for publishing to static sites. | [Addo Zhang](https://github.com/addozhang) |
 | [mdzk](https://github.com/mdzk-rs/mdzk) | Zettelkasten system and command line static publishing tool. Aims at full support for Obsidian Markdown. | [mdzk-rs](https://github.com/mdzk-rs) |
 | [publish](https://github.com/obsidian-userland/publish) | An open-source Obsidian Publish alternative | [obsidian-userland](https://github.com/obsidian-userland)
 | [quartz](https://github.com/jackyzha0/quartz) | Host your own second brain and digital garden | [jackyzha0](https://github.com/jackyzha0) |
