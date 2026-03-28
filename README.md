@@ -134,6 +134,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian For Business](https://github.com/tallguyjenks/Obsidian-For-Business) | A combination of a template vault with initial structure and some Microsoft Office VBA Macros to facilitate a powerful, extensible, and flexible plain text workflow using Microsoft Office and Obsidian For Business. | [Bryan Jenks](https://github.com/tallguyjenks) |
 | [Sourcegraph knowledge bases extension](https://github.com/bobheadxi/sourcegraph-knowledge-bases) | Browse Markdown knowledge bases (e.g. Obsidian vaults or Foam repositories) in Sourcegraph. | [Robert Lin](https://github.com/bobheadxi) |
 | [Obweb](https://github.com/chenyukang/obweb/) | Web applcation to view and edit files in an Obsidian vault. Optimized for mobile devices. | [Yukang Chen](https://github.com/chenyukang) |
+| [MacMD Viewer](https://macmdviewer.com) | A native macOS markdown viewer with live reload, Mermaid diagrams, and syntax highlighting. Works as a companion viewer for Obsidian vault files. | [Arthur](https://github.com/music-mash) |
   
 ---
   
