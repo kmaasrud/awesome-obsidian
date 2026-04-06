@@ -39,6 +39,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Obsidian at Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
 - [Obsidian Beginner Guide at SitePoint](https://www.sitepoint.com/obsidian-beginner-guide/)
 - [Obsidian Official Roadmap](https://obsidian.md/roadmap/)
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Obsidian knowledge management workflow orchestration, automated note-taking pipeline management, and multi-agent coordination. MIT licensed.
 
 </details>
 
