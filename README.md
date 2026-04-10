@@ -84,6 +84,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [Publishing](#publishing)
 - [Other](#other)
   
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=kmaasrud_awesome-obsidian) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ## Converters
 
 | Name | Description | Credits |
