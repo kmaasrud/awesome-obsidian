@@ -87,7 +87,10 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 ## Converters
 
 | Name | Description | Credits |
-| :--: | :---------- | ------: |
+| :--: | :
+| [twineconvert](https://twineconvert.com/kindle-clippings-to-obsidian-md) | Browser-based converter for Kindle's `My Clippings.txt` to one Markdown file per book, with frontmatter (`title`, `author`, `date_finished`). Drops cleanly into a vault `Sources/` folder. No install, no upload, runs entirely in the browser. | [Achraf921](https://github.com/Achraf921) |
+
+---------- | ------: |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian. | [Conner Tennery](https://github.com/connertennery) |
 | [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [Akos Balasko](https://github.com/akosbalasko) |
 | [keep-it-markdown](https://github.com/djsudduth/keep-it-markdown) | Convert Google Keep notes dynamically to markdown for Obsidian and Notion using the unofficial Keep API. | [Don Sudduth](https://github.com/djsudduth) |
