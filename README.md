@@ -99,6 +99,8 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [PKMigrator](https://github.com/AnweshGangula/PKMigrator) | Tools to migrate between various Personal Knowledge Management Utilities, including Remnote, Obsidian, Roam and Org-roam. | [Anwesh Gangula](https://github.com/AnweshGangula) |
 
 | [Qonspekt](https://github.com/Qonspekt/qonspekt) | Browser tool using Claude AI to convert any article into atomic Obsidian notes. BYOK, no backend, ZIP download. | [Qonspekt](https://qonspekt.github.io/qonspekt/) |
+
+| [Qonspekt](https://github.com/Qonspekt/qonspekt) | Browser tool: convert any article into atomic Obsidian notes via Claude AI. BYOK, no backend, ZIP download. | [Qonspekt](https://qonspekt.github.io/qonspekt/) |
 | [Goodsidian](https://github.com/selfire1/goodsidian) | Goodsidian takes updates to your shelves on Goodreads and formats them to a note in Obsidian. | [selfire1](https://github.com/selfire1) |
 
 ---
