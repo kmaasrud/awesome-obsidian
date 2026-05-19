@@ -127,6 +127,22 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 ---
 
+
+# AI & Automation
+
+<details>
+<summary></summary>
+
+## Agent Skills & Tools
+
+| Name | Description | Credits |
+| :--: | :---------- | ------: |
+| [VaultForge](https://github.com/Easonnotsing/VaultForge) | AI agent skill that transforms PDF/Markdown learning materials into structured Obsidian vaults — auto-generates atomic notes, MOCs, 5-type logical wikilinks, core questions, and controversy analysis. Supports English & Chinese. Works with Claude Code, Codex, and Cursor. | [Eason](https://github.com/Easonnotsing) |
+
+---
+
+</details>
+
 ## Other
 
 | Name | Description | Credits |
