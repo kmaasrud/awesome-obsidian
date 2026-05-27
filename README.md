@@ -88,6 +88,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 
 | Name | Description | Credits |
 | :--: | :---------- | ------: |
+| [FolioMD](https://foliomd.es) | Free unlimited PDF to Markdown converter with OCR, table extraction and image support. Output works directly in Obsidian vaults. | [luiferme-pixel](https://github.com/luiferme-pixel) |
 | [Notion to Obsidian converter](https://github.com/connertennery/Notion-to-Obsidian-Converter) | Simple script to convert exported Notion notes to Obsidian. | [Conner Tennery](https://github.com/connertennery) |
 | [Yarle - Yet Another Rope Ladder from Evernote](https://github.com/akosbalasko/yarle) | Node.js app to convert exported Evernote notes to Markdown (Obsidian) | [Akos Balasko](https://github.com/akosbalasko) |
 | [keep-it-markdown](https://github.com/djsudduth/keep-it-markdown) | Convert Google Keep notes dynamically to markdown for Obsidian and Notion using the unofficial Keep API. | [Don Sudduth](https://github.com/djsudduth) |
