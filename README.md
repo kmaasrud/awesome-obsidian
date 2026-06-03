@@ -134,6 +134,9 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian For Business](https://github.com/tallguyjenks/Obsidian-For-Business) | A combination of a template vault with initial structure and some Microsoft Office VBA Macros to facilitate a powerful, extensible, and flexible plain text workflow using Microsoft Office and Obsidian For Business. | [Bryan Jenks](https://github.com/tallguyjenks) |
 | [Sourcegraph knowledge bases extension](https://github.com/bobheadxi/sourcegraph-knowledge-bases) | Browse Markdown knowledge bases (e.g. Obsidian vaults or Foam repositories) in Sourcegraph. | [Robert Lin](https://github.com/bobheadxi) |
 | [Obweb](https://github.com/chenyukang/obweb/) | Web applcation to view and edit files in an Obsidian vault. Optimized for mobile devices. | [Yukang Chen](https://github.com/chenyukang) |
+| [obsidian-graph-auditor](https://github.com/build-with-dhiraj/obsidian-graph-auditor) | Audit your Obsidian graph health on an 8-dimension rubric: orphan rate, link density, hub concentration, Louvain modularity, frontmatter-wikilink adoption. Read-only and deterministic, runs against the vault folder. | [Dhiraj Singh Pawar](https://github.com/build-with-dhiraj) |
+| [obsidian-brain-eval](https://github.com/build-with-dhiraj/obsidian-brain-eval) | Measure your vault's retrieval quality. Generates a gold Q&A set from your notes and scores Recall@10 with a BM25 or LanceDB backend. | [Dhiraj Singh Pawar](https://github.com/build-with-dhiraj) |
+| [obsidian-orphan-killer](https://github.com/build-with-dhiraj/obsidian-orphan-killer) | Fix orphan notes by resolving plain-text mentions into wikilinks deterministically, with embedding-based anchoring and optional cluster-hub minting. Frontmatter-only, atomic, idempotent. | [Dhiraj Singh Pawar](https://github.com/build-with-dhiraj) |
   
 ---
   
