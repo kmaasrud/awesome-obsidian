@@ -71,6 +71,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 | [Shell commands](https://github.com/Taitava/obsidian-shellcommands) | You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported. | [Jarkko Linnanvirta](https://github.com/Taitava) |
+| [Tandem Comments](https://github.com/leonpawelzik/obsidian-tandem-comments) | Google Docs-style comments for your notes. Quote-anchored comment threads live in a fenced block at the end of the file, so the prose stays untouched and AI assistants can read and write them too. | [leonpawelzik](https://github.com/leonpawelzik) |
   
 </details>
   
