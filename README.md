@@ -161,6 +161,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | :--: | :---------- | ------: |
 | [Obsidian Templates](https://github.com/chetachiezikeuzor/Obsidian-Templates) | Few templates, such as admonitions, chess plays, clipboard and others | [Chetachi Ezikeuzor](https://github.com/chetachiezikeuzor) |
 | [Template Showcase for Templater](https://github.com/SilentVoid13/Templater/discussions/categories/templates-showcase) | Templates for [Templater](https://github.com/SilentVoid13/Templater) made by its community. | Templater Community |
+| [XHS Obsidian Workflow Starter](https://github.com/Ronnie2025/xhs-obsidian-workflow-starter) | Free templates and checklists for turning Obsidian notes into Xiaohongshu post packages with content briefs, titles, carousel pages, image prompts, publishing drafts, and archives. | [Ronnie2025](https://github.com/Ronnie2025) |
 
 </details>
 
