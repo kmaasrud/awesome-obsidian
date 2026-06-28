@@ -58,6 +58,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Santi Younger](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins): a Chinese alternative to Obsidian Roundup
+- [Obsidian Holds the Notes. Claude Does the Work.](https://ivanmisic.net/blog/ai-tools/claude-obsidian-second-brain): using Claude Code with Obsidian for AI-assisted personal knowledge management.
 
 </details>
 
