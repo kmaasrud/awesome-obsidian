@@ -109,6 +109,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Copy Selection as Markdown](https://github.com/0x6b/copy-selection-as-markdown) | Firefox add-on to copy a selection or link as formatted Markdown | [0x6b](https://github.com/0x6b) |
 | [Obsidian Clipper](https://github.com/jplattel/obsidian-clipper) | An unofficial Obsidian clipper for Chrome, that allows you to easily clip a selection to a note in Obsidian | [Joost Plattel](https://github.com/jplattel) |
 | [Obsidian Bookmark](https://github.com/Liamballin/ObsidianBookmark) | A Chrome extension and nodejs server to allow web clipping to Obsidian. | [Liamballin](https://github.com/Liamballin) |
+| [Markdown Web Clipper](https://github.com/Tigrandza/markdown-web-clipper) | A Manifest V3 Chrome extension that saves any web page as high-fidelity Markdown directly into your vault — preserves tables, math and code blocks, and writes locally via the File System Access API. | [Tigrandza](https://github.com/Tigrandza) |
 
 ---
 
