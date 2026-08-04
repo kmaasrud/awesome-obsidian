@@ -154,7 +154,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian JG Method](https://github.com/joshwingreene/Obsidian-JG-Method) | A starter kit that follows how to use Obsidian to manage goals, tasks, notes, and software development knowledge base. | [joshwingreene](https://github.com/joshwingreene) |
 | [SlRvb’s Journaling Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+Bullet+Journal+Setup) | This is a deep dive into how SlRvb go about journaling the things that happen in his life. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
 | [SlRvb’s MediaDB Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+MediaDB+Vault+Setup) | Setup for a database vault that stores entertainment media. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
-| [Second Brain Starter](https://github.com/secondbrainstarter/second-brain-starter) | A minimal German starter vault with three folders, three templates and three rules — a working note-taking system in 10 minutes. | [secondbrainstarter](https://github.com/secondbrainstarter) |
+| [Second Brain Starter](https://github.com/secondbrainstarter/second-brain-starter) | A free bilingual (English/German) Obsidian starter vault: three folders, three rules and six ready-to-use templates — a working note system in 10 minutes. | [secondbrainstarter](https://github.com/secondbrainstarter) |
 
 ## Note templates
 
