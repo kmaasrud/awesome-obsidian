@@ -58,6 +58,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Santi Younger](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins): a Chinese alternative to Obsidian Roundup
+- [Zettelkasten Organizer](https://github.com/absolute-duckdev/zettelkasten-organizer-skill): an AI agent skill that audits, maintains and builds Zettelkasten slip-boxes in Obsidian — works with Claude Code, Hermes Agent, OpenCode, Codex, and Gemini CLI
 
 </details>
 
