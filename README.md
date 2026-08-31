@@ -71,6 +71,8 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 | [Shell commands](https://github.com/Taitava/obsidian-shellcommands) | You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported. | [Jarkko Linnanvirta](https://github.com/Taitava) |
+| [Quizzable](https://github.com/monapdx/Quizzable) | An Obsidian plugin for creating playable quizzes. | [monapdx](https://github.com/monapdx) |
+| [Skeletal](https://github.com/monapdx/obsidian-skeletal) | Skeletal: markdown structures for every kind of content. | [monapdx](https://github.com/monapdx) |
   
 </details>
   
@@ -497,6 +499,8 @@ Most themes should be available through the `Appearance` => `Community themes` i
 | [firinael/obsidian-cidreira-coast-theme](https://github.com/firinael/obsidian-cidreira-coast-theme) | ![Cidreira Coast](https://raw.githubusercontent.com/firinael/obsidian-cidreira-coast-theme/master/screenshot.png "") |
 | [chrisgrieser/shimmering-focus](https://github.com/chrisgrieser/shimmering-focus) | ![Shimmering Focus](https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/main/assets/promo-screenshot-big.png "") |
 | [caro401/royal-velvet](https://github.com/caro401/royal-velvet) | ![Royal Velvet](https://raw.githubusercontent.com/caro401/royal-velvet/main/royal-velvet.png "") |
+| [monapdx/Electrocution](https://github.com/monapdx/Electrocution) | ![Electrocution](https://raw.githubusercontent.com/monapdx/Electrocution/refs/heads/main/screenshot.png) "") |
+| [monapdx/Neon-Acid](https://github.com/monapdx/Neon-Acid) | ![Neon Acid](https://raw.githubusercontent.com/monapdx/Neon-Acid/refs/heads/main/screenshot.png) "") |
 
 </details>
 
