@@ -58,6 +58,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 - [🎬 Santi Younger](https://www.youtube.com/playlist?list=PL_7j1BHf-xmj3Jr2h3lI6SXlvIaIjcmmo)
 - [🎬 Effective Remote Work](https://www.youtube.com/playlist?list=PLrI2d6gSaO9BCd8HjgkSY1yd50nyfxYpN)
 - [🇨🇳 AllinBon](https://www.zhihu.com/people/kio-mis/pins): a Chinese alternative to Obsidian Roundup
+- [Folders, tags and backlinks](https://pickthetool.com/folders-tags-and-backlinks/): a guide to the distinct jobs of containment, filtering and note relationships.
 
 </details>
 
