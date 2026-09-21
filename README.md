@@ -71,6 +71,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 | [Shell commands](https://github.com/Taitava/obsidian-shellcommands) | You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported. | [Jarkko Linnanvirta](https://github.com/Taitava) |
+| [GTD Brain](https://github.com/minosin/gtdbrain-obsidian) | Sets up a Getting Things Done vault (Inbox, Next Actions by context, Projects, Waiting For, Someday/Maybe, Weekly Review) as Markdown notes and syncs it two-way with a GTD Brain board, which is also available on the web, Android and iOS and can be driven by ChatGPT and Claude. | [Minosin AB](https://github.com/minosin) |
   
 </details>
   
