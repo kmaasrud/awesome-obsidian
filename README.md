@@ -71,6 +71,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian Day Planner](https://github.com/lynchjames/obsidian-day-planner) | Plugin for day planning and managing pomodoro timers from a task list | [lynchjames](https://github.com/lynchjames) |
 | [Flashcards](https://github.com/reuseman/flashcards-obsidian) | Simple and intuitive integration for Anki | [reuseman](https://github.com/reuseman) |
 | [Shell commands](https://github.com/Taitava/obsidian-shellcommands) | You can predefine system commands that you want to run frequently, and assign hotkeys for them. For example open external applications. Automatic execution is also supported. | [Jarkko Linnanvirta](https://github.com/Taitava) |
+| [Library](https://github.com/Kigrok/obsidian-library-plugin) | Movies, series, books, anime, comics, games and music as notes in a cover-card gallery, with in-app search, episode and chapter tracking, and graph links | [Kigrok](https://github.com/Kigrok) |
   
 </details>
   
