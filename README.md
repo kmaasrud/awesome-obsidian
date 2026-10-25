@@ -154,6 +154,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian JG Method](https://github.com/joshwingreene/Obsidian-JG-Method) | A starter kit that follows how to use Obsidian to manage goals, tasks, notes, and software development knowledge base. | [joshwingreene](https://github.com/joshwingreene) |
 | [SlRvb’s Journaling Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+Bullet+Journal+Setup) | This is a deep dive into how SlRvb go about journaling the things that happen in his life. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
 | [SlRvb’s MediaDB Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+MediaDB+Vault+Setup) | Setup for a database vault that stores entertainment media. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
+| [Personal Knowledge Base Template](https://github.com/wangshuhui0613/keep-the-why) | A zero-plugin vault structure built around a single "action dashboard" as the source of truth for cross-day follow-ups, with decision logs, experience cards, and periodic reviews. Also installable as an Agent Skill for AI-assisted maintenance. | [wangshuhui](https://github.com/wangshuhui0613) |
 
 ## Note templates
 
