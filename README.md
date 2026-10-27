@@ -154,6 +154,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [Obsidian JG Method](https://github.com/joshwingreene/Obsidian-JG-Method) | A starter kit that follows how to use Obsidian to manage goals, tasks, notes, and software development knowledge base. | [joshwingreene](https://github.com/joshwingreene) |
 | [SlRvb’s Journaling Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+Bullet+Journal+Setup) | This is a deep dive into how SlRvb go about journaling the things that happen in his life. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
 | [SlRvb’s MediaDB Setup](https://publish.obsidian.md/slrvb/50+Nebula/30-N+Nebula/N+-+MediaDB+Vault+Setup) | Setup for a database vault that stores entertainment media. | [SlRvb](https://forum.obsidian.md/u/SlRvb/summary) |
+| [LectureVault](https://github.com/aknahin/lecturevault) | Student lecture-notes vault sample: Cornell + outline templates with a locked front-matter contract, spaced-repetition revision ladder, running-grade tracker, exam countdown — zero plugins | aknahin |
 
 ## Note templates
 
