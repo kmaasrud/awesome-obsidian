@@ -124,6 +124,7 @@ A curated list of awesome themes, plugins and more for [Obsidian](https://obsidi
 | [pelican-obsidian](https://github.com/jonathan-s/pelican-obsidian) | Makes it possible to bridge work in obsidian to pelican seamlessly. | [Jonathan Sundqvist](https://github.com/jonathan-s) |
 | [yet-another-free-publish-alternative](https://github.com/Mara-Li/yet-another-free-publish-alternative) | A Jekyll digital garden template, optimized for integration with Obsidian. It aims to enhance discoverability and help you build a personal knowledge base that can scale with time. | [Mara Li](https://github.com/Mara-Li) |
 | [Perlite](https://github.com/secure-77/Perlite) | A webbased markdown viewer optimized for Obsidian | [secure-77](https://github.com/secure-77)
+| [Obsidian Garden](https://github.com/sina-salahshour/obsidian-garden) | Publishes a vault as a fast server-rendered website (TanStack Start). Renders wikilinks, backlinks, callouts, embeds, Mermaid and KaTeX; adds a note graph, full-text search and ordered series built from folders. Per-note and per-folder flags keep drafts out of the sync or hidden from visitors. | [sina-salahshour](https://github.com/sina-salahshour) |
 
 ---
 
